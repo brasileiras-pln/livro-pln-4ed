@@ -1,0 +1,1192 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Processamento de Linguagem Natural",
+    "section": "",
+    "text": "Prefácio à 4a. edição\nO Processamento de Linguagem Natural (PLN) surgiu praticamente ao mesmo tempo que os computadores, por volta da década de 1940, já que a tradução automática entre línguas foi um dos primeiros problemas submetidos aos primeiros computadores1. No Brasil, as pesquisas em PLN começaram timidamente ainda na década de 1970, entre acadêmicos interessados em Inteligência Artificial (IA). Em 1984, foi realizada a primeira edição do Simpósio Brasileiro de Inteligência Artificial2 (SBIA), em Porto Alegre, RS, e boa parte dos trabalhos apresentados nesse evento eram da área de PLN. Naquela época, os sistemas propostos para português eram muito simples, sendo apenas estudos de caso bem elementares, como os que visavam encontrar respostas para perguntas do tipo Qual?, O quê?, Onde? e Quando?. Demorou mais uma década até que houvesse uma massa crítica de cientistas brasileiros dedicados ao processamento computacional do português.\nNo início da década de 1990, destacavam-se pesquisadores de PLN em diversos centros acadêmicos, como cientistas da computação e linguistas da UFRGS, PUCRS e da Unisinos, no RS; linguistas da PUC-Rio, no RJ; cientistas da computação na Unicamp, em SP, e na UFPE, em PE. Também nessa época, em 1993, nascia o NILC (Núcleo Interinstitucional de Linguística Computacional), no ICMC-USP/São Carlos3, um grupo pioneiro em PLN, que teve como desafio inicial produzir o primeiro revisor ortográfico e gramatical comercial para o português do Brasil. Para levar a cabo essa iniciativa, foi necessário compor uma equipe de informatas e linguistas que se tornaram agentes multiplicadores do PLN no Brasil.\nEm 1993 foi realizado o primeiro evento exclusivo de PLN dedicado ao português ibérico e brasileiro, em Lisboa. Tal evento se tornou o International Conference on the Computational Processing of Portuguese (PROPOR)4, realizado alternativamente no Brasil e em Portugal, com 17 edições realizadas até essa data (2026). No âmbito nacional, em 2003 foi criado o Simpósio Brasileiro de Tecnologia da Informação e da Linguagem Humana (STIL)5, que abriga diferentes eventos satélites tratando de temas específicos para o processamento da língua, em particular o Português, com 15 edições realizadas até essa data (início de 2026). Em 2007, foi criada a Comissão Especial de PLN (CEPLN)6 da Sociedade Brasileira de Computação. A comunidade cresceu, inicialmente graças à formação acadêmica de profissionais e pesquisadores, posteriormente também em consequência da maior demanda de empresas tecnológicas e de outras naturezas, atraindo profissionais com diferentes formações. Em 2020, foi criado o grupo Brasileiras em PLN (BPLN)7, responsável pela idealização e edição deste livro.\nJá há algum tempo as aplicações de PLN saíram dos laboratórios acadêmicos e entraram definitivamente no nosso cotidiano. O desenvolvimento de diversas áreas da computação de forma integrada (hardware, software, tratamento de grandes volumes de dados, aprendizado de máquina e aprendizado profundo) impulsionou o desenvolvimento do processamento da língua para uma nova esfera. Em novembro de 2022, o mundo conheceu o ChatGPT, um chatbot capaz de responder a qualquer pergunta ou solicitação (escrevendo códigos de programas, p. ex.), em língua natural, incluindo o português. Além de surpreender pelo seu desempenho linguístico, ele acendeu um sinal de alerta para a comunidade de IA e PLN, bem como para vários setores da sociedade. Várias indagações surgiram: Será que a IA está prestes a atingir a meta de criar sistemas que possam vir a substituir o homem em todas as tarefas? Quais os riscos que as diferentes sociedades correm se o mercado de trabalho for dominado por sistemas inteligentes? E se apenas poucas empresas dominarem o mercado de sistemas inteligentes? E o que pode acontecer com países não desenvolvidos? A conscientização desse cenário fez crescer o interesse pelas atividades da comunidade que desenvolve sistemas de IA, incluindo a de PLN, já que o ChatGPT é uma aplicação típica dessa área.\nDurante todas essas décadas, a comunidade brasileira de PLN dedicou-se a construir recursos linguístico-computacionais e também aplicações variadas para o português. No início, eram interfaces simples que entendiam perguntas feitas em linguagem natural. Seguiram-se ferramentas de auxílio à escrita, tradutores, sumarizadores, classificadores de documentos, reconhecedores e sintetizadores de fala, entre outros. Atualmente, muitas aplicações envolvem os conteúdos das redes sociais, sendo que a língua tem sido processada também com o objetivo de conhecer a pessoa que faz uso dela, seja para lhe oferecer produtos e serviços, seja para analisar tendências e personalidades. Entram em cena os reconhecedores de opiniões e sentimentos, e de notícias falsas. Essa nova tendência de descobrir o que está implícito ou pode ser inferido da linguagem trouxe problemas muito desafiadores para a área. Vários domínios de conhecimento e atuação estão fortemente presentes nessa revolução tecnológica: educação, saúde, direito, bancos e financeiras, comunicação, comércio, segurança, governança, entre outros. Tanto por serem afetados por ela como por ajudarem a construir novas soluções.\nSe antes os especialistas em PLN tinham a tarefa de explicitar e codificar conhecimento linguístico, hoje seu maior desafio é preparar dados/exemplos linguísticos para servirem de entrada aos algoritmos no treinamento de modelos computacionais capazes de transformar dados em conhecimento ou ações. E isso não é pouco. Para enriquecer os dados brutos de modo que o conhecimento adquirido seja o mais completo e correto possível, ou que a ação gerada seja a mais adequada, é preciso saber escolhê-los, prepará-los e eventualmente anotá-los com informações de várias naturezas: morfológicas, sintáticas, semânticas, extralinguísticas etc. É a essa tarefa que muitos especialistas em PLN de todo o mundo têm se dedicado ultimamente. Outro papel importante está nas avaliações de qualidade dos recursos e produtos construídos, o entendimento do problema, a identificação das limitações e a proposta de melhorias. É crucial que as bases do desenvolvimento dessas tecnologias sejam fortes, bem informadas, consistentes e éticas. A linguagem nos define, e ela faz agora parte dos nossos artefatos, a complexidade deste cenário ainda não é bem compreendida. Com este livro, agora na quarta edição, composto por três volumes, com dez novos capítulos, os 117 autores e autoras (39 a mais do que na terceira edição) pretendem contribuir para que o desenvolvimento da tecnologia que envolve a linguagem humana seja bem fundamentado, consciente e ético.\nAs Seções Sobre este livro e Como ler este livro devem esclarecer ao leitor sobre a natureza dos capítulos e onde localizá-los nesta obra.",
+    "crumbs": [
+      "Prefácio à 4a. edição"
+    ]
+  },
+  {
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "Processamento de Linguagem Natural",
+    "section": "",
+    "text": "Os primeiros computadores também foram massivamente usados para realizar cálculos numéricos complexos, mas a tradução automática foi a primeira aplicação simbólica da computação.↩︎\nO SBIA é hoje o BRACIS. Para saber mais, consulte http://comissoes.sbc.org.br/ce-ia/pg/historico/?sec=SBIA-1984.↩︎\nhttp://www.nilc.icmc.usp.br/↩︎\nhttps://sites.google.com/view/ce-pln/eventos/propor↩︎\nhttps://sites.google.com/view/ce-pln/eventos/stil↩︎\nhttp://comissoes.sbc.org.br/ce-pln/↩︎\nhttps://brasileiraspln.com/↩︎",
+    "crumbs": [
+      "Prefácio à 4a. edição"
+    ]
+  },
+  {
+    "objectID": "sobre.html",
+    "href": "sobre.html",
+    "title": "Sobre este livro",
+    "section": "",
+    "text": "Como citar\nUm dos grandes desafios de escrever um livro sobre uma área tecnológica, como o PLN, é fazê-lo de tal forma que ele não fique obsoleto pouco tempo depois de seu lançamento. E esse risco é, de fato, muito grande. Cada vez mais as tecnologias não apenas avançam rapidamente como podem ser totalmente substituídas por outras, tornando-se descartáveis. Ainda assim, há sempre um núcleo de conhecimento que se mantém relevante ao longo do tempo e que é indispensável para quem quer conhecer ou atuar nessa área. Por outro lado, por ser uma área tecnológica, é indispensável que o livro também apresente o que há de mais atual.\nEste livro aborda conhecimentos, técnicas e aplicações de PLN em português que são relevantes atualmente ou historicamente. Afinal, para chegar até aqui, um longo caminho de construção de conhecimento foi percorrido – ainda que possa parecer que cada nova tecnologia seja sempre uma nova invenção.\nPara contemplar história, estado da arte e não obsolescência, optou-se por criar um livro na forma digital, de acesso gratuito e dinâmico, ou seja, temos atualizado seu conteúdo a cada nova edição. Mais do que apenas atualizá-lo com novos conhecimentos, o livro tem sido ampliado com novos capítulos a cada nova edição. As possibilidades de expansão são inúmeras, já que há uma demanda crescente por novas aplicações que envolvem PLN.\nNa primeira edição, procuramos introduzir os principais conceitos e tarefas da área, algumas das aplicações mais relevantes hoje em dia, particularmente em português do Brasil, e algumas das principais técnicas usadas para o desenvolvimento dessas tarefas e aplicações. Os temas de todos os capítulos tinham potencial para serem aprofundados em edições futuras, o que de fato aconteceu.\nNa segunda edição, revisada e ampliada, o conteúdo foi estendido com seis novos capítulos organizados em doze partes. Foram acrescentadas duas novas partes: Interação e Avaliação, dois temas importantíssimos para o PLN.\nA terceira edição foi estendida com seis novos capítulos e também trouxe material suplementar em alguns deles, com vídeos dos autores e slides de apresentação do conteúdo do capítulo.\nNesta quarta edição, com o crescimento constante do livro, decidimos dividir os 46 capítulos em 3 volumes. O Volume 1 é dedicado a 21 capítulos introdutórios e conceituais da área de PLN: Introdução, Fala, Palavras, Estrutura, Significado, Discurso, Geração e Interação, Dados, Avaliação e Desafios e Perspectivas. O Volume 2 é composto por 7 capítulos totalmente dedicados aos modelos de linguagem (Language Models): conceituação, técnicas, treinamento, avaliação, aplicação. Já o Volume 3 concentra 18 capítulos que descrevem as aplicações variadas na área de PLN. Devido a essa nova organização, vários capítulos de edições anteriores receberam nova numeração.\nEsperamos que essa nova apresentação propicie aos leitores de diferentes perfis uma navegação mais confortável e eficaz. Em cada volume, há uma seção (Sobre o Volume) trazendo informações específicas sobre o mesmo.\nEsta edição foi estendida com dez novos capítulos, sendo um no Volume 1, cinco no Volume 2 e quatro no Volume 3. Outros nove capítulos foram atualizados, sendo dois deles – capítulo Sumarização Automática e capítulo Complexidade Textual e suas Tarefas Relacionadas – significativamente estendidos com novas seções, com novos coautores. Finalmente, a dez capítulos foram anexados vídeos sobre seus temas.\nRessaltamos que sempre é possível navegar de um capítulo a outro, de um volume a outro, e que não disponibilizamos versões impressas, mas que o arquivo pdf de cada capítulo está acessível logo abaixo de seu título.\nEste livro deve continuar crescendo com novas contribuições, na forma de novos capítulos, novos recursos, ou novas versões dos capítulos já existentes. Por isso, atente-se sempre para a data de publicação dos conteúdos. A fim de abranger temas variados nessa área, contamos com um número cada vez maior de autores colaboradores. A quarta edição conta com 117 autores, sendo eles professores universitários das principais universidades brasileiras e também do exterior, pesquisadores brasileiros que atuam no exterior, alunos de pós-graduação em Computação e em Linguística, profissionais de PLN que atuam em empresas. A variedade de autoria e a forma colaborativa de construção de conteúdos, sob diferentes visões (computacional e linguística), dão a este livro uma característica única, uma personalidade. E essa personalidade, que tanto nos orgulha, faz deste livro uma história do PLN escrita a muitas mãos.\nCom este livro, as autoras e os autores pretendem oferecer um corpo de conhecimento suficientemente abrangente sobre o PLN em português do Brasil – ainda que não esgote todos os temas da área – que atenda expectativas de leitores com diferentes perfis. O livro pode ser usado como material didático para disciplinas de cursos de Computação ou Linguística, ou áreas afins, servindo como fonte de conhecimento teórico e prático para quem está aprendendo essa ciência. Pode servir de referência a profissionais que fazem uso do PLN para criar soluções tecnológicas, servindo como fonte de técnicas e métodos para desenvolvimento de sistemas tecnológicos. Também acadêmicos e curiosos, de um modo geral, nele encontrarão uma visão geral da área de PLN, e como ela pode interagir com outras áreas de conhecimento. Em Como ler este livro, apresentamos em detalhes os volumes desta edição.\nAgradecemos o apoio da NAACL RAF 2021, uma iniciativa da NAACL1 (North American Chapter of the Association for Computational Linguistics) para apoiar projetos da comunidade de PLN na América Latina.\nCaseli, H.M.; Nunes, M.G.V. (org.) Processamento de Linguagem Natural: Conceitos, Técnicas e Aplicações em Português. 4 ed. BPLN, 2026. Disponível em: https://brasileiraspln.com/livro-pln/4a-edicao.",
+    "crumbs": [
+      "Sobre este livro"
+    ]
+  },
+  {
+    "objectID": "sobre.html#footnotes",
+    "href": "sobre.html#footnotes",
+    "title": "Sobre este livro",
+    "section": "",
+    "text": "https://naacl.org/↩︎",
+    "crumbs": [
+      "Sobre este livro"
+    ]
+  },
+  {
+    "objectID": "como_ler.html",
+    "href": "como_ler.html",
+    "title": "Como ler este livro",
+    "section": "",
+    "text": "O objetivo dos autores deste livro (117 nesta edição) é oferecer aos leitores conhecimento sobre PLN, ao mesmo tempo, introdutório e abrangente, de modo a atender às expectativas de leitores com diferentes perfis. O livro pode ser usado como material didático para disciplinas de IA e PLN de cursos de computação ou linguística, ou áreas afins, e também pode servir de referência a profissionais que fazem uso do PLN para criar soluções tecnológicas.\nA fim de oferecer conhecimento sobre temas variados nessa área, foi importante contar com um grande número de especialistas brasileiros1, a quem as organizadoras agradecem profundamente.\nEsta quarta edição propõe uma nova organização do conteúdo do livro. Agora ele está dividido em três volumes, conforme indicado abaixo. Na seção Sobre o Volume, de cada volume, o leitor encontrará mais detalhes sobre seu conteúdo.\nO Volume 1 abriga os capítulos que introduzem a área, seus principais conceitos, um pouco de história do PLN brasileiro, conceitos da Linguística, as divisões usuais das tarefas do PLN (sintaxe, semântica, geração), o processamento da fala, o tema da avaliação de sistemas de PLN,o papel dos corpora, entre outros temas gerais. Esses capítulos podem ser lidos de forma sequencial por leitores iniciantes, já que estão em ordem crescente de complexidade; ou, dependendo do perfil e do interesse do leitor, podem ser lidos em qualquer ordem, uma vez que são independentes entre si.\nO Volume 2 traz capítulos exclusivamente sobre os modelos de linguagem (Language Models), dada sua relevância atual na área de IA e PLN. Os capítulos introduzem os conceitos comuns à área de Inteligência Artificial, apresentam as técnicas atuais, discutem a preparação de dados, o treinamento na prática, técnicas de mitigação de problemas, a avaliação dos modelos, bem como uma discussão aprofundada sobre os problemas no uso desses modelos; tudo isso com foco na língua portuguesa. O leitor interessado nesta área pode explorá-la integralmente e também complementá-la com capítulos relacionados em outros volumes, como aqueles do Volume 1 sobre Geração, Avaliação, Diálogo, Dataset e Corpus, além das diversas aplicações do Volume 3 que utilizam esses modelos.\nO Volume 3 é dedicado às aplicações em geral. São trabalhos de PLN aplicados a tarefas recorrentes no PLN (classificação textual, sumarização, tradução, entre outras) e domínios do conhecimento (Direito e Saúde, entre outras). Trata-se de um volume que deve receber muitas contribuições ao longo do tempo.\nComplementam esse livro as informações Sobre as(os) autoras(es).",
+    "crumbs": [
+      "Como ler este livro"
+    ]
+  },
+  {
+    "objectID": "como_ler.html#footnotes",
+    "href": "como_ler.html#footnotes",
+    "title": "Como ler este livro",
+    "section": "",
+    "text": "A lista completa das autoras e autores deste livro encontra-se em: Sobre as/os autoras/es↩︎",
+    "crumbs": [
+      "Como ler este livro"
+    ]
+  },
+  {
+    "objectID": "autores.html",
+    "href": "autores.html",
+    "title": "Sobre as/os autoras/es",
+    "section": "",
+    "text": "Helena de Medeiros Caseli 📨️",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Helena de Medeiros Caseli",
+    "href": "autores.html#Helena de Medeiros Caseli",
+    "title": "Sobre as/os autoras/es",
+    "section": "",
+    "text": "Helena Caseli é formada em Ciência da Computação pela UFU, com pós-graduação no ICMC/USP. É professora titular na UFSCar, onde atua desde 2008 e coordena o LALIC (Laboratório de Linguística e Inteligência Computacional). Suas áreas de interesse incluem aprendizado de máquina, tradução automática e PLN aplicado a redes sociais em domínios como política e saúde mental. Foi a idealizadora, é uma das organizadoras deste livro e colaborou com os Capítulos  O que é PLN?,  Sequência de caracteres e palavras,  E agora, PLN?,  Tradução Automática e  Detecção de Transtornos de Saúde Mental a partir de Texto.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Maria das Graças Volpe Nunes",
+    "href": "autores.html#Maria das Graças Volpe Nunes",
+    "title": "Sobre as/os autoras/es",
+    "section": "Maria das Graças Volpe Nunes 📨️",
+    "text": "Maria das Graças Volpe Nunes 📨️\n\n\n\n\n\nMaria das Graças Volpe Nunes é formada em Ciência da Computação pela UFSCar, mestre pela USP e doutora pela PUC-Rio. Foi docente no ICMC-USP, São Carlos, de 1981 a 2013, onde agora é professora sênior. Atualmente é membro do C4AI, da USP, IBM e FAPESP. É uma das fundadoras do NILC, onde atuou em várias áreas do PLN para português: revisão ortográfica e gramatical, tradução automática, sumarização, análise de sentimentos, entre outras. É uma das organizadoras deste livro e colaborou com os Capítulos  O que é PLN?,  Questões éticas em IA e PLN e  E agora, PLN?.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Adriana Silvina Pagano",
+    "href": "autores.html#Adriana Silvina Pagano",
+    "title": "Sobre as/os autoras/es",
+    "section": "Adriana Silvina Pagano 📨️",
+    "text": "Adriana Silvina Pagano 📨️\n\n\n\n\n\nAdriana Pagano é formada em Letras pela Universidad Nacional de La Plata. Fez seu mestrado no Programa de Inglês e Literatura Correspondente da UFSC e seu doutorado no Programa de Estudos Linguísticos da UFMG. É professora titular da Faculdade de Letras da UFMG desde 1995. Suas áreas de interesse incluem tradução, produção textual multilíngue e modelagem sistêmico-funcional da linguagem. Neste livro, colaborou com os Capítulos  O que é PLN?,  A ordem e a função das palavras em uma sentença,  Ferramentas e recursos para o processamento sintático e  PLN na Saúde.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Adriano L. I. Oliveira",
+    "href": "autores.html#Adriano L. I. Oliveira",
+    "title": "Sobre as/os autoras/es",
+    "section": "Adriano L. I. Oliveira 📨️",
+    "text": "Adriano L. I. Oliveira 📨️\n\n\n\n\n\nAdriano Oliveira é engenheiro eletrônico (1993), mestre e doutor em Computação pela UFPE (1997 e 2004). Foi Professor Visitante da École de Technologie Supérieure (ÉTS, Université du Québec, Canadá), 2018-2019. É Professor da UFPE e bolsista de produtividade em pesquisa do CNPq, nível 1D. Neste livro, colaborou com o capítulo Reconhecimento de Entidades Nomeadas no Domínio Legal.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Aline  Macohin",
+    "href": "autores.html#Aline  Macohin",
+    "title": "Sobre as/os autoras/es",
+    "section": "Aline  Macohin 📨️",
+    "text": "Aline  Macohin 📨️\n\n\n\n\n\nAline Macohin é formada em Direito e Computação, com Mestrado em Computação Aplicada pela UTFPR e Doutorado em Direito pela UFPR. É advogada, analista de sistemas no poder público há 13 anos, membro da Comissão de Direito Digital e Proteção de dados da OAB/PR e professora de pós-graduação na PUCPR. Autora do site https://www.iaresponsavel.com.br. Suas áreas de interesse incluem aprendizado de máquina, PLN, governança de inteligência artificial e proteção de dados. Neste livro, colaborou com o capítulo PLN no Direito.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Aline  Paes",
+    "href": "autores.html#Aline  Paes",
+    "title": "Sobre as/os autoras/es",
+    "section": "Aline  Paes 📨️",
+    "text": "Aline  Paes 📨️\n\n\n\n\n\nAline Paes é formada em Ciência da Computação pela UERJ, com mestrado e doutorado em inteligência artificial pela COPPE/Sistemas/UFRJ e estágio sanduíche de doutorado no Imperial College London. É docente na UFF desde 2013. Suas áreas de interesse incluem aprendizado de máquina relacional, aprendizado de representações para linguagem, IA para impacto social positivo e IA explicável. Neste livro, colaborou com os Capítulos  Modelos de linguagem e  ChatGPT, MariTalk e outros agentes de conversação.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Aline Aver Vanin",
+    "href": "autores.html#Aline Aver Vanin",
+    "title": "Sobre as/os autoras/es",
+    "section": "Aline Aver Vanin 📨️",
+    "text": "Aline Aver Vanin 📨️\n\n\n\n\n\nAline Aver Vanin é licenciada em Letras pela UCS, com mestrado e doutorado em Linguística pela PUCRS. Atuou em estágio pós-doutoral no Laboratório de PLN do Programa de Pós-Graduação em Computação da PUCRS. É docente do Departamento de Educação e Humanidades da UFCSPA desde 2014 e colaboradora do Programa de Pós-Graduação em Letras da UNISC desde 2019. Tem interesse na interface discurso e PLN. Neste livro, colaborou com o capítulo Resolução de correferência.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Aline  Villavicencio",
+    "href": "autores.html#Aline  Villavicencio",
+    "title": "Sobre as/os autoras/es",
+    "section": "Aline  Villavicencio 📨️",
+    "text": "Aline  Villavicencio 📨️\n\n\n\n\n\nAline Villavicencio é formada em Ciência da Computação pela PUC-RS e doutora pela Universidade de Cambridge (Inglaterra). É professora titular da Universidade de Exeter (Inglaterra) onde é diretora do Institute of Data Science and Artificial Intelligence. Sua pesquisa é em Processamento de Linguagem Natural (PLN) inspirado em modelos cognitivo computacionais de processamento de linguagem e com foco em processamento de expressões multipalavras. Neste livro, colaborou com o capítulo Expressões multipalavras.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Amanda Pontes Rassi",
+    "href": "autores.html#Amanda Pontes Rassi",
+    "title": "Sobre as/os autoras/es",
+    "section": "Amanda Pontes Rassi 📨️",
+    "text": "Amanda Pontes Rassi 📨️\n\n\n\n\n\nAmanda Rassi é bacharel e mestre em Linguística pela Universidade Federal de Goiás (UFG) e doutora na mesma área pela Universidade Federal de São Carlos (UFSCar). Tem experiência com correção automática de redações, tendo atuado na Redação Nota 1000 e atualmente na Somos Educação. Suas áreas de interesse incluem sintaxe, semântica, lexicologia, lexicografia e PLN. Neste livro, colaborou com os Capítulos  Sequência de caracteres e palavras,  A ordem e a função das palavras em uma sentença e  Correção Automática de Redação.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Ana Clara Souza Pagano",
+    "href": "autores.html#Ana Clara Souza Pagano",
+    "title": "Sobre as/os autoras/es",
+    "section": "Ana Clara Souza Pagano 📨️",
+    "text": "Ana Clara Souza Pagano 📨️\n\n\n\n\n\nAna Clara Souza Pagano é formada em Linguística Teórica e Descritiva pela Universidade Federal de Minas Gerais (UFMG). Fez seu Trabalho de Conclusão de Curso em Estilometria computacional. Suas áreas de interesse incluem: Aprendizado de Máquina (AM), Inteligência Artificial (IA), tradução e Processamento de Linguagem Natural (PLN). Neste livro, colaborou com os Capítulos  A ordem e a função das palavras em uma sentença e  Ferramentas e recursos para o processamento sintático.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Ana Paula  Banza",
+    "href": "autores.html#Ana Paula  Banza",
+    "title": "Sobre as/os autoras/es",
+    "section": "Ana Paula  Banza 📨️",
+    "text": "Ana Paula  Banza 📨️\n\n\n\n\n\nAna Paula Banza é Licenciada em Línguas e Literaturas Modernas pela Universidade de Lisboa (Portugal); Doutora em Linguística pela Universidade de Évora (Portugal), onde lecciona, no Departamento de Linguística e Literaturas, desde 1991, sendo, atualmente, professora associada com agregação. Desenvolve investigação nas áreas da Filologia, Crítica Textual, Linguística Histórica/História da Língua e Variação linguística, centrando-se os seus interesses na edição crítica de textos literários e não literários, com destaque para a obra do Padre António Vieira, e no estudo dos fenómenos de mudança e de variação na língua portuguesa. Neste livro, colaborou com o capítulo PLN e Humanidades Digitais.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Ana Sofia  Ribeiro",
+    "href": "autores.html#Ana Sofia  Ribeiro",
+    "title": "Sobre as/os autoras/es",
+    "section": "Ana Sofia  Ribeiro 📨️",
+    "text": "Ana Sofia  Ribeiro 📨️\n\n\n\n\n\nAna Sofia Ribeiro é formada em História e doutorada em História pela Universidade do Porto. É investigadora auxiliar do CIDEHUS, Universidade de Évora, Portugal. As suas áreas de interesse estão ligadas aos métodos de utilização de PLN aos textos históricos e como os resultados de técnicas como o reconhecimento de entidades nomeadas (NER) ou grafos de conhecimento (knowledge graphs) podem ser usados como variáveis da investigação em história. Neste livro, colaborou com o capítulo PLN e Humanidades Digitais.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#André Carlos Ponce de Leon Ferreira de Carvalho",
+    "href": "autores.html#André Carlos Ponce de Leon Ferreira de Carvalho",
+    "title": "Sobre as/os autoras/es",
+    "section": "André Carlos Ponce de Leon Ferreira de Carvalho 📨️",
+    "text": "André Carlos Ponce de Leon Ferreira de Carvalho 📨️\n\n\n\n\n\nAndré Carlos de Carvalho é professor titular do ICMC-USP e Vice-Diretor do Centro de Inteligência Artificial e Aprendizado de Máquina (CIAAM) da USP. Seus principais interesses de pesquisa são Aprendizado de Máquina, Mineração de Dados e Ciência de Dados, com aplicações em várias áreas. Escreveu vários livros, entre eles Inteligência Artificial: Uma abordagem de Aprendizado de Máquina, publicado pelo GrupoGen em 2011 e prêmio Jabuti 2012, e A General Introduction to Data Analytics, publicado pela Wiley, em 2018. Neste livro, colaborou com o capítulo Reconhecimento de Entidades Nomeadas no Domínio Legal.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Altigran Soares Silva",
+    "href": "autores.html#Altigran Soares Silva",
+    "title": "Sobre as/os autoras/es",
+    "section": "Altigran Soares Silva 📨️",
+    "text": "Altigran Soares Silva 📨️\n\n\n\n\n\nAltigran Soares da Silva concluiu doutorado em Ciência da Computação pela UFMG (2002) e é professor titular do Instituto de Computação da UFAM. Seus interesses incluem: Aprendizagem de Máquina, Modelos de Linguagem, Engenharia de Dados e Recuperação de Informação. Neste livro, colaborou nos capítulos Avaliação de Large Language Models: Fundamentos, Métricas Tradicionais e Desafios Atuais e Fundamentos da Geração Aumentada por Recuperação. Neste livro, colaborou com os Capítulos  Avaliação de Grandes Modelos de Linguagem e  Geração Aumentada por Recuperação (RAG).",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#André  Carvalho",
+    "href": "autores.html#André  Carvalho",
+    "title": "Sobre as/os autoras/es",
+    "section": "André  Carvalho 📨️",
+    "text": "André  Carvalho 📨️\n\n\n\n\n\nAndré Carvalho é doutor em Informática pela Universidade Federal do Amazonas, onde, desde 2013 é professor associado, sendo também também é coordenador do bacharelado em Inteligência Artificial. Também é coordenador do projeto de pesquisa IATS - Inteligência Artificial aplicada em Teste de Software, que tem como foco aplicação de técnicas de processamento de linguagem natural em tarefas de qualidade de software. Sua pesquisa tem como foco áreas como Inteligência Artificial, Aprendizagem de Máquina, Recuperação de Informação e Ciência de Dados. Neste livro, colaborou com os Capítulos  Avaliação de Grandes Modelos de Linguagem e  Geração Aumentada por Recuperação (RAG).",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Arnaldo  Candido Junior",
+    "href": "autores.html#Arnaldo  Candido Junior",
+    "title": "Sobre as/os autoras/es",
+    "section": "Arnaldo  Candido Junior 📨️",
+    "text": "Arnaldo  Candido Junior 📨️\n\n\n\n\n\nArnaldo Candido Junior possui graduação em Ciência da Computação pela Universidade Estadual Paulista Júlio de Mesquita Filho (2005), mestrado em Ciências da Computação e Matemática Computacional pelo Instituto de Ciências Matemáticas e de Computação (ICMC) da Universidade de São Paulo (USP) (2008) e doutorado em Ciências da Computação e Matemática Computacional também pelo ICMC/USP. É professor da Universidade Estadual Paulista. Atua nas áreas de linguagens de programação e inteligência artificial (PLN e processamento da fala). Neste livro, colaborou com o capítulo Recursos para o processamento de fala.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Beatriz Raposo de Medeiros",
+    "href": "autores.html#Beatriz Raposo de Medeiros",
+    "title": "Sobre as/os autoras/es",
+    "section": "Beatriz Raposo de Medeiros 📨️",
+    "text": "Beatriz Raposo de Medeiros 📨️\n\n\n\n\n\nBeatriz Raposo de Medeiros é professora associada de Fonética da Universidade de São Paulo (USP), onde coordena o Laboratório de Fonética e Linguagem Lafalin. É doutora em Linguística pela Universidade Estadual de Campinas (Unicamp). Realizou pós-doutorado no Laboratoire Langue Parole, na Université Aix-Marseille em 2007. Em 2023 recebeu a BPE, bolsa de pesquisa da FAPESP, em período como professora visitante da University of Southern California, para estudo da laringe e sua relação mais estreita com capacidades entoacionais humanas. Seu trabalho de pesquisa abrange comparações entre fala e canto, tratando aspectos como a inteligibilidade, a organização temporal, a sincronização e a estabilidade da frequência fundamental. Neste livro, colaborou com o capítulo Classificação de Áudio aplicada à Saúde.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Brenda Salenave Santana",
+    "href": "autores.html#Brenda Salenave Santana",
+    "title": "Sobre as/os autoras/es",
+    "section": "Brenda Salenave Santana 📨️",
+    "text": "Brenda Salenave Santana 📨️\n\n\n\n\n\nBrenda Salenave Santana é formada em Ciência da Computação pela Universidade Federal de Santa Maria (UFSM), com mestrado e doutorado em Computação pela Universidade Federal do Rio Grande do Sul (UFRGS). É docente na Universidade Federal de Pelotas (UFPel) desde 2023. Suas áreas de interesse incluem aprendizado de máquina e detecção de discursos de ódio. Neste livro, colaborou com o capítulo PLN em Redes Sociais.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Brielen  Madureira",
+    "href": "autores.html#Brielen  Madureira",
+    "title": "Sobre as/os autoras/es",
+    "section": "Brielen  Madureira 📨️",
+    "text": "Brielen  Madureira 📨️\n\n\n\n\n\nBrielen Madureira é formada em Matemática Aplicada e Computacional pela Universidade de São Paulo (USP). Tem mestrado em Ciência e Tecnologia da Linguagem pela Universidade de Saarland (Alemanha) e doutorado em Linguística Computacional pela Universidade de Potsdam (Alemanha), onde participou do grupo de pesquisa em Diálogo. Mais amplamente, tem interesse na avaliação de tecnologias de linguagem e nas urgentes considerações éticas que elas demandam. Atualmente é pesquisadora em fase de pós-doutorado na Universidade de Leipzig (Alemanha), no grupo Climate Discourse. Neste livro, colaborou com os Capítulos  Avaliação de tecnologias de linguagem,  Diálogo e Interatividade e  Responsabilidade no desenvolvimento e uso de tecnologias de linguagem baseadas em IA.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Camila de Araújo Azevedo",
+    "href": "autores.html#Camila de Araújo Azevedo",
+    "title": "Sobre as/os autoras/es",
+    "section": "Camila de Araújo Azevedo 📨️",
+    "text": "Camila de Araújo Azevedo 📨️\n\n\n\n\n\nCamila Azevedo foi aluna da primeira turma do Bacharelado em Linguística da Universidade Federal de São Carlos (UFSCar), atua há mais de 10 anos com síntese de voz e atualmente trabalha no time de processamento de fala do SiDi. Neste livro, colaborou com o capítulo Texto ou fala?.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Carlos  Ramisch",
+    "href": "autores.html#Carlos  Ramisch",
+    "title": "Sobre as/os autoras/es",
+    "section": "Carlos  Ramisch 📨️",
+    "text": "Carlos  Ramisch 📨️\n\n\n\n\n\nCarlos Ramisch é formado em ciência da computação pela Universidade Federal do Rio Grande do Sul (UFRGS) e concluiu o doutorado em 2012, em co-tutela entre a UFRGS e a Université de Grenoble (França). Desde 2013, ele é professor na Universidade de Aix-Marseille e pesquisador afiliado ao Laboratoire d’Informatique et Systèmes, na França. Sua pesquisa é focada na área de semântica computacional, em especial no processamento de expressões multipalavras. Neste livro, colaborou com o capítulo Expressões multipalavras.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Cassia Trojahn dos Santos",
+    "href": "autores.html#Cassia Trojahn dos Santos",
+    "title": "Sobre as/os autoras/es",
+    "section": "Cassia Trojahn dos Santos 📨️",
+    "text": "Cassia Trojahn dos Santos 📨️\n\n\n\n\n\nCassia Trojahn dos Santos é formada em Ciência da Computação pela Unisc, mestre pela Unisinos e doutora pela Universidade de Evora (Portugal), com pós-doutorado pelo INRIA (França). Foi docente do Departamento de Informática e Matemática na Universidade de Grenoble (França) entre 2012 e 2024. Atualmente, é docente na Universidade de Grenoble Alpes, associada ao centro de pesquisa INRIA Alpes. Suas áreas de interesse incluem representação de conhecimento, alinhamento de ontologias, e dados FAIR. Neste livro, colaborou com o capítulo PLN e Humanidades Digitais.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Celso Ricardo Fernandes de Carvalho",
+    "href": "autores.html#Celso Ricardo Fernandes de Carvalho",
+    "title": "Sobre as/os autoras/es",
+    "section": "Celso Ricardo Fernandes de Carvalho 📨️",
+    "text": "Celso Ricardo Fernandes de Carvalho 📨️\n\n\n\n\n\nCelso Ricardo Fernandes de Carvalho é formado em Fisioterapia pela UFSCar. Atualmente é Professor Associado da Faculdade de Medicina da Universidade de São Paulo (FMUSP). Tem interesse pelas áreas Processamento de Linguagem Natural e Inteligência Artificial em pessoas com doenças respiratórias. Neste livro, colaborou com o capítulo Classificação de Áudio aplicada à Saúde.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Cláudia  Freitas",
+    "href": "autores.html#Cláudia  Freitas",
+    "title": "Sobre as/os autoras/es",
+    "section": "Cláudia  Freitas 📨️",
+    "text": "Cláudia  Freitas 📨️\n\n\n\n\n\nCláudia Freitas é formada em Letras pela PUC-Rio, onde concluiu o doutorado em Estudos da Linguagem (2007) sobre a construção de ontologias a partir de corpus. De 2012 a 2022 foi docente do Programa de Pós-Graduação em Estudos da Linguagem da PUC-Rio, onde fundou o grupo ComCorHD (Linguística Computacional, Corpus e Humanidades Digitais). De 2007 a 2022 foi também pesquisadora da Linguateca. Ao longo de 2023 e 2024 foi pesquisadora do ICMC/USP, vinculada ao C4AI, e atualmente é pesquisadora independente. Suas áreas de interesse incluem construção e avaliação de datasets/corpora, semântica/significado, e articulação entre abordagens simbólicas e neurais. Neste livro, colaborou com os Capítulos  E o significado?,  Conjunto de dados, dataset e corpus,  Avaliação conjunta em português e  ChatGPT, MariTalk e outros agentes de conversação.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Claudia Maria Cabral Moro Barra",
+    "href": "autores.html#Claudia Maria Cabral Moro Barra",
+    "title": "Sobre as/os autoras/es",
+    "section": "Claudia Maria Cabral Moro Barra 📨️",
+    "text": "Claudia Maria Cabral Moro Barra 📨️\n\n\n\n\n\nClaudia Moro é engenheira de computação pela PUCPR, com mestrado (UNICAMP) e doutorado (USP) em engenharia elétrica/biomédica. É professora titular da PUCPR onde atua desde 1995, vinculada ao Programa de Pós-graduação em Tecnologia em Saúde (desde 2003), atuando nas áreas de PLN em textos clínicos, inteligência artificial em saúde e, interoperabilidade entre sistemas de informações em saúde. Neste livro, colaborou com o capítulo PLN na Saúde.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Cristiane  Namiuti",
+    "href": "autores.html#Cristiane  Namiuti",
+    "title": "Sobre as/os autoras/es",
+    "section": "Cristiane  Namiuti 📨️",
+    "text": "Cristiane  Namiuti 📨️\n\n\n\n\n\nCristiane Namiuti é Bacharel em Linguística pela UNICAMP (2002) onde também obteve o título de Doutora em Linguística (2008). Fez parte da equipe do Corpus Anotado do Português Histórico Tycho Brahe (1998-2010). Desde 2008, atua como docente da Universidade Estadual do Sudoeste da Bahia (UESB) e no PPGLin/UESB desde sua fundação em 2010. Atualmente, integra o grupo de pesquisadores e co-fundadores dos Laboratórios LAPELINC/UESB e LaViHD/USP e, desde 2020, faz parte de uma das equipes do C4AI - Centro de Inteligência Artificial da USP (LaViHD-C4AI). Suas áreas de interesse incluem metodologias automáticas de anotação e busca de dados em textos escritos, mudança linguística, história do português, linguística de corpus e humanidades digitais. Neste livro, colaborou com o capítulo O papel dos dados no pré-treinamento de Grandes Modelos de Linguagem.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Crysttian Arantes Paixão",
+    "href": "autores.html#Crysttian Arantes Paixão",
+    "title": "Sobre as/os autoras/es",
+    "section": "Crysttian Arantes Paixão 📨️",
+    "text": "Crysttian Arantes Paixão 📨️\n\n\n\n\n\nCrysttian Arantes Paixão é formado em Ciência da Computação pela Universidade Federal de Lavras (UFLA) e Estatística pela Anhembi Morumbi, com pós-graduação em Administração de Redes Linux, Modelagem Computacional e Estatística na UFLA e Pós-Doutorado em Modelagem Computacional pela Fundação Getulio Vargas. É docente na Universidade Federal da Bahia (UFBA) desde 2022. Suas áreas de interesse incluem Estatística, Modelagem Computacional e Inteligência Artificial. Neste livro, colaborou com o capítulo Sumarização Automática.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Daniela Barreiro Claro",
+    "href": "autores.html#Daniela Barreiro Claro",
+    "title": "Sobre as/os autoras/es",
+    "section": "Daniela Barreiro Claro 📨️",
+    "text": "Daniela Barreiro Claro 📨️\n\n\n\n\n\nDaniela Barreiro Claro é professora titular da Universidade Federal da Bahia (UFBA), fez seu Mestrado em Ciências da Computação pela Universidade Federal de Santa Catarina (UFSC) e o seu Doutorado na Université d’Angers (França). Em 2009, ela fundou o Grupo de Pesquisa FORMAS na área de Semântica e PLN. Suas principais áreas de pesquisa incluem extração de informação, aprendizado de máquina e aprendizado multimodal. Neste livro, colaborou com os Capítulos  Semântica distribucional e  Extração de Informação.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Daniela  Vianna",
+    "href": "autores.html#Daniela  Vianna",
+    "title": "Sobre as/os autoras/es",
+    "section": "Daniela  Vianna 📨️",
+    "text": "Daniela  Vianna 📨️\n\n\n\n\n\nDaniela Vianna tem Ph.D. em Ciência da Computação pela Rutgers University, USA, e mestrado e bacharelado em Ciência da Computação pela Universidade Federal Fluminense, Brasil. Em 2022, completou um pós-doutorado na Universidade Federal do Amazonas, Brasil, em uma parceria com a Jusbrasil. Seus interesses estão nas áreas de aprendizado de máquina e PLN. Neste livro, colaborou com o  Modelos de linguagem.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Danilo Samuel  Jodas",
+    "href": "autores.html#Danilo Samuel  Jodas",
+    "title": "Sobre as/os autoras/es",
+    "section": "Danilo Samuel  Jodas 📨️",
+    "text": "Danilo Samuel  Jodas 📨️\n\n\n\n\n\nDanilo Jodas é formado em Ciência da Computação pelo Centro Universitário do Norte Paulista (UNORP), com pós-graduação em processamento de imagens e aprendizado de máquina pela UNESP e FEUP (Universidade do Porto). É pesquisador de pós-doutorado na UNESP de Bauru desde 2019, atuando em pesquisas de aprendizado de máquina e PLN. Neste livro, colaborou com os Capítulos  Sumarização Automática e  Treinamento de Grandes Modelos de Linguagem na prática.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Dante Augusto Barone",
+    "href": "autores.html#Dante Augusto Barone",
+    "title": "Sobre as/os autoras/es",
+    "section": "Dante Augusto Barone 📨️",
+    "text": "Dante Augusto Barone 📨️\n\n\n\n\n\nDante Augusto Barone é doutor em Ciência da Computação pelo Instituto Nacional Politécnico de Grenoble(INPG), França e tem mestrado e graduação em Engenharia Elétrica, pela USP e pela UFRGS, respectivamente. Atualmente coordena o Programa de Pós-Graduação em Informática na Educação da UFRGS. Suas áreas de interesse incluem Aprendizado de Máquina, Processamento de Linguagem Natural e Ética em Inteligência Artificial. Contribuiu e liderou projeto de cooperação com a Petrobrás para o desenvolvimento de robô, o qual recebeu o prêmio de inovação em 2021. Neste livro, colaborou com o capítulo Perguntas e Respostas.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Diana  Santos",
+    "href": "autores.html#Diana  Santos",
+    "title": "Sobre as/os autoras/es",
+    "section": "Diana  Santos 📨️",
+    "text": "Diana  Santos 📨️\n\n\n\n\n\nDiana Santos é formada em Engenharia Eletrotécnica e de Computadores em 1985, com mestrado na mesma área com tese em tradução automática em 1988, e doutorada em Engenharia Informática em 1996 com uma tese em semântica computacional, todos pelo Instituto Superior Técnico, Lisboa. Desde 1998 que trabalha para o processamento computacional da língua portuguesa no mundo, sendo líder da Linguateca desde 2000. Desde 2011 que é professora na Universidade de Oslo em Linguística Portuguesa, e também leciona ou lecionou Tradução, Estatística, e Humanidades Digitais. Os seus interesses são quase todas as áreas do PLN, e avaliação em geral. Neste livro, colaborou com o capítulo Avaliação conjunta em português.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Diego Raphael Amancio",
+    "href": "autores.html#Diego Raphael Amancio",
+    "title": "Sobre as/os autoras/es",
+    "section": "Diego Raphael Amancio 📨️",
+    "text": "Diego Raphael Amancio 📨️\n\n\n\n\n\nDiego Raphael Amancio é doutor em Física Computacional pela USP (2013), tendo realizado estágios de pós-doutorado na própria USP (2014) e na Indiana University, nos Estados Unidos (2018). Atualmente, é professor associado (livre-docente) e pesquisador do ICMC/USP. Possui experiência na área de Ciência da Computação, com ênfase em Redes Complexas, Cienciometria, Aprendizado de Máquina e PLN. Seus interesses de pesquisa incluem a modelagem de sistemas reais por meio de grafos, com destaque para a representação e análise da linguagem humana. Neste livro, colaborou com o capítulo Redes complexas no processamento de língua natural do português.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Douglas  Rodrigues",
+    "href": "autores.html#Douglas  Rodrigues",
+    "title": "Sobre as/os autoras/es",
+    "section": "Douglas  Rodrigues 📨️",
+    "text": "Douglas  Rodrigues 📨️\n\n\n\n\n\nDouglas Rodrigues é formado em Informática para Gestão de Negócios pela FATEC/Botucatu, Mestrado (UNESP/Bauru) e Doutorado (UFSCar/São Carlos) em Ciências da Computação. Atualmente, atua como pós-doutorando e pesquisador no Recogna/UNESP. Suas áreas de interesse incluem aprendizado de máquina e otimização matemática. Neste livro, colaborou com os Capítulos  Sumarização Automática e  Treinamento de Grandes Modelos de Linguagem na prática.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Edresson  Casanova",
+    "href": "autores.html#Edresson  Casanova",
+    "title": "Sobre as/os autoras/es",
+    "section": "Edresson  Casanova 📨️",
+    "text": "Edresson  Casanova 📨️\n\n\n\n\n\nEdresson Casanova é bacharel em Ciência da Computação pela UTFPR, com pós-graduação em inteligência artificial e PLN com foco em processamento de fala no ICMC/USP. Atualmente, é Deep Learning engineer na coqui.ai. Suas áreas de interesse incluem síntese de fala, clonagem de voz, verificação de locutores e reconhecimento automático de fala. Neste livro, colaborou com o capítulo Recursos para o processamento de fala.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Eduardo  Cortes",
+    "href": "autores.html#Eduardo  Cortes",
+    "title": "Sobre as/os autoras/es",
+    "section": "Eduardo  Cortes 📨️",
+    "text": "Eduardo  Cortes 📨️\n\n\n\n\n\nEduardo Cortes é doutor em Ciência da Computação pela Universidade Federal do Rio Grande do Sul (UFRGS), com experiência na área de Inteligência Artificial, com ênfase em Sistemas de Question Answering, Processamento de Linguagem Natural (PLN) e Aprendizado de Máquina (AM). Atualmente, atua como pesquisador em um projeto conjunto entre a Unisinos e a SAP, focado em PLN. Neste livro, colaborou com o capítulo Perguntas e Respostas.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Elisa Terumi Rubel Schneider",
+    "href": "autores.html#Elisa Terumi Rubel Schneider",
+    "title": "Sobre as/os autoras/es",
+    "section": "Elisa Terumi Rubel Schneider 📨️",
+    "text": "Elisa Terumi Rubel Schneider 📨️\n\n\n\n\n\nElisa Terumi é formada em Informática pela Universidade Tecnológica Federal do Paraná (UTFPR), com especialização em Desenvolvimento Web (PUCPR), mestrado em Bioinformática (UFPR) e doutorado em Informática atuando na linha de pesquisa de Inteligência Artificial (PUCPR). Tem interesse em PLN aplicado na área de saúde. Neste livro, colaborou com os Capítulos  Ferramentas e recursos para o processamento sintático e  PLN na Saúde.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Ellen  Souza",
+    "href": "autores.html#Ellen  Souza",
+    "title": "Sobre as/os autoras/es",
+    "section": "Ellen  Souza 📨️",
+    "text": "Ellen  Souza 📨️\n\n\n\n\n\nEllen Souza é formada em Ciência da Computação com doutorado em inteligência artificial pelo CIn/UFPE e pós-doutoranda na área de processamento de textos legislativos no ICMC-USP desde 2020. É docente do curso de Bacharelado em Sistemas de Informação da UFRPE desde 2009. Suas áreas de interesse incluem aprendizado de máquina, recuperação de informação e reconhecimento de entidades nomeadas. Neste livro, colaborou com o capítulo Reconhecimento de Entidades Nomeadas no Domínio Legal.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Eloize Rossi Marques Seno",
+    "href": "autores.html#Eloize Rossi Marques Seno",
+    "title": "Sobre as/os autoras/es",
+    "section": "Eloize Rossi Marques Seno 📨️",
+    "text": "Eloize Rossi Marques Seno 📨️\n\n\n\n\n\nEloize Seno é Bacharel em Análise e Desenvolvimento de Sistemas pela UNILINS, com mestrado em inteligência artificial e PLN pelo Programa de Pós-graduação em Ciência da Computação da UFSCar e doutorado em inteligência artificial e PLN pelo ICMC/USP. É docente no Instituto Federal de São Paulo desde 2011. Suas áreas de interesse incluem sumarização automática, tradução automática, análise semântica e mineração de opinião. Neste livro, colaborou com os Capítulos  Semântica com técnicas simbólicas e  Semântica distribucional.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Evandro  Fonseca",
+    "href": "autores.html#Evandro  Fonseca",
+    "title": "Sobre as/os autoras/es",
+    "section": "Evandro  Fonseca 📨️",
+    "text": "Evandro  Fonseca 📨️\n\n\n\n\n\nEvandro Fonseca possui graduação em Ciência da Computação (2011) pela Universidade Católica de Pelotas (UCPEL), mestrado (2014) e doutorado (2018) em Ciência da Computação, com foco em PLN, pela Pontifícia Universidade Católica do Rio Grande do Sul (PUCRS). Atualmente atua como Team Lead | AI/NLP Specialist na Blip. Neste livro, colaborou com o capítulo Resolução de correferência.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Evelin  Amorim",
+    "href": "autores.html#Evelin  Amorim",
+    "title": "Sobre as/os autoras/es",
+    "section": "Evelin  Amorim 📨️",
+    "text": "Evelin  Amorim 📨️\n\n\n\n\n\nEvelin Amorim é formada em Ciência da Computação pela Universidade Federal do Espírito Santo (UFES), com doutorado em Ciência da Computação pela Universidade Federal de Minas Gerais (UFMG). É pesquisadora no INESC TEC, em Portugal, desde 2020. Suas áreas de interesse incluem correção automática de redações e extração de informação. Neste livro, colaborou com o capítulo Classificação de texto.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Fátima  Farrica",
+    "href": "autores.html#Fátima  Farrica",
+    "title": "Sobre as/os autoras/es",
+    "section": "Fátima  Farrica 📨️",
+    "text": "Fátima  Farrica 📨️\n\n\n\n\n\nFátima Farrica é doutorada em História pela Universidade de Évora (Portugal), com pós-graduação em Ciências Documentais: Arquivologia. É bolseira de investigação do CIDEHUS-Universidade de Évora (Portugal). As suas áreas de interesse incluem a investigação na área da História, projetos de arquivística, paleografia e tratamento documental. Neste livro, colaborou com o capítulo PLN e Humanidades Digitais.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Felipe Ribas Serras",
+    "href": "autores.html#Felipe Ribas Serras",
+    "title": "Sobre as/os autoras/es",
+    "section": "Felipe Ribas Serras 📨️",
+    "text": "Felipe Ribas Serras 📨️\n\n\n\n\n\nFelipe Ribas Serras é Bacharel em Física pelo Instituto de Física da Universidade de São Paulo (USP) e Mestre em Ciência da Computação pelo Instituto e Matemática e Estatística da USP. Suas áreas de interesse incluem complexidade de linguagem e abordagens computacionais à variação linguística e tipologia. Neste livro, colaborou com os capítulos  Complexidade Textual e suas Tarefas Relacionadas,  O papel dos dados no pré-treinamento de Grandes Modelos de Linguagem.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Fernanda  Olival",
+    "href": "autores.html#Fernanda  Olival",
+    "title": "Sobre as/os autoras/es",
+    "section": "Fernanda  Olival 📨️",
+    "text": "Fernanda  Olival 📨️\n\n\n\n\n\nFernanda Olival é doutorada em História pela Universidade de Évora (Portugal), onde leciona desde 1991. É também diretora do CIDEHUS (Portugal). Trabalha sobre História Social e Política do período Moderno. Interessa-se por Processamento de Linguagem Natural (PLN) como ferramenta para anotar, gerir e recuperar informação, a partir de fontes históricas. Neste livro, colaborou com o capítulo PLN e Humanidades Digitais.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Flaviane Romani Fernandes Svartman",
+    "href": "autores.html#Flaviane Romani Fernandes Svartman",
+    "title": "Sobre as/os autoras/es",
+    "section": "Flaviane Romani Fernandes Svartman 📨️",
+    "text": "Flaviane Romani Fernandes Svartman 📨️\n\n\n\n\n\nFlaviane Svartman possui graduação e doutorado em Linguística pela Unicamp, com período de estágio de doutorado na Faculdade de Letras da Universidade de Lisboa e pós-doutorado também pela Unicamp. Atua como docente na área de Filologia e Língua Portuguesa na Faculdade de Filosofia, Letras e Ciências Humanas da USP desde 2010. Suas investigações concernem ao estudo da fonologia e da fonética da língua portuguesa, com especial interesse na prosódia, na interface sintaxe-fonologia, na comparação entre variedades africanas, brasileiras e europeias do português e no PLN. Neste livro, colaborou com os Capítulos  Recursos para o processamento de fala e  Classificação de Áudio aplicada à Saúde.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Gabriel Lino Garcia",
+    "href": "autores.html#Gabriel Lino Garcia",
+    "title": "Sobre as/os autoras/es",
+    "section": "Gabriel Lino Garcia 📨️",
+    "text": "Gabriel Lino Garcia 📨️\n\n\n\n\n\nGabriel Lino Garcia é graduado em Análise e Desenvolvimento de Sistemas pela FATEC e mestre em Inteligência Artificial (IA) e Processamento de Linguagem Natural (PLN) pela UNESP, onde faz doutorado focado na aplicação de modelos de linguagem na área médica. Seus interesses incluem aprendizado de máquina, grandes modelos de linguagem, aprendizado multimodal e aplicações médicas. Neste livro, colaborou com os Capítulos  Sumarização Automática e  Treinamento de Grandes Modelos de Linguagem na prática.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Gabriela Alves Lachi",
+    "href": "autores.html#Gabriela Alves Lachi",
+    "title": "Sobre as/os autoras/es",
+    "section": "Gabriela Alves Lachi 📨️",
+    "text": "Gabriela Alves Lachi 📨️\n\n\n\n\n\nGabriela Alves Lachi é graduanda em Letras pela Universidade de São Paulo (USP). Suas áreas de interesse em Processamento de Linguagem Natural envolvem a construção e o desenvolvimento de corpus, bem como o treinamento e a avaliação de grandes modelos de linguagem. Neste livro, colaborou com o capítulo O papel dos dados no pré-treinamento de Grandes Modelos de Linguagem.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Helena Freire Cameron",
+    "href": "autores.html#Helena Freire Cameron",
+    "title": "Sobre as/os autoras/es",
+    "section": "Helena Freire Cameron 📨️",
+    "text": "Helena Freire Cameron 📨️\n\n\n\n\n\nHelena Freire Cameron é doutora em Linguística pela Universidade de Aveiro (Portugal) e pós-doutora em Humanidades Digitais e PLN pela Universidade de Évora (Portugal). Integrou vários projetos de investigação em Linguística Computacional (EUROTRA, DIGRAMA, Corpus Lexicográfico do Português, entre outros). É investigadora do CIDEHUS-Universidade de Évora (Portugal), onde integra um grupo multidisciplinar de Humanidades Digitais, envolvendo História, Linguística e Computação-PLN. Nos anos mais recentes tem-se dedicado ao estudo da variação ortográfica no século XVIII, do ponto de vista linguístico e computacional-PLN. Neste livro, colaborou com o capítulo PLN e Humanidades Digitais.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Heliana  Mello",
+    "href": "autores.html#Heliana  Mello",
+    "title": "Sobre as/os autoras/es",
+    "section": "Heliana  Mello 📨️",
+    "text": "Heliana  Mello 📨️\n\n\n\n\n\nHeliana Mello é formada em Letras pela Universidade Federal de Minas Gerais (UFMG), com doutorado em Linguística pela CUNY. É docente na UFMG desde 1998. Suas áreas de interesse incluem métodos empíricos e quantitativos para a análise da linguagem, compilação e estudo de corpora de fala. Neste livro, colaborou com o capítulo Texto ou fala?.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Hidelberg O. Albuquerque",
+    "href": "autores.html#Hidelberg O. Albuquerque",
+    "title": "Sobre as/os autoras/es",
+    "section": "Hidelberg O. Albuquerque 📨️",
+    "text": "Hidelberg O. Albuquerque 📨️\n\n\n\n\n\nHidelberg Albuquerque é formado em Análise e Desenvolvimento de Sistemas pelo Instituto Federal da Paraíba (IFPB), com pós-graduação pelo PPGI/UFPB, e atualmente doutorando em Ciência da Computação no Cin/UFPE. É docente na Unidade Acadêmica de Serra Talhada (UAST)/UFRPE desde 2015. Suas áreas de interesse incluem aprendizado de máquina, reconhecimento de entidade nomeada (NER), sumarização e recuperação de informação. Neste livro, colaborou com o capítulo Reconhecimento de Entidades Nomeadas no Domínio Legal.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Ivandré  Paraboni",
+    "href": "autores.html#Ivandré  Paraboni",
+    "title": "Sobre as/os autoras/es",
+    "section": "Ivandré  Paraboni 📨️",
+    "text": "Ivandré  Paraboni 📨️\n\n\n\n\n\nIvandré Paraboni é doutor em Ciência da Computação pela University of Brighton (Inglaterra, 2003), com estágio de pós-doutorado junto à University of Aberdeen (Escócia, 2012). É professor associado (livre docente) e pesquisador da USP/EACH. Possui experiência na área de Ciência da Computação, atuando principalmente nas áreas de PLN e IA. Interesses de pesquisa abrangem o processamento da língua humana em um sentido amplo do termo, incluindo métodos computacionais derivados das Ciências Cognitivas e aplicações práticas de classificação de documentos extraídos da WEB. Neste livro, colaborou com os Capítulos  Geração de linguagem natural e  Detecção de Transtornos de Saúde Mental a partir de Texto.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Jackson Wilke da Cruz Souza",
+    "href": "autores.html#Jackson Wilke da Cruz Souza",
+    "title": "Sobre as/os autoras/es",
+    "section": "Jackson Wilke da Cruz Souza 📨️",
+    "text": "Jackson Wilke da Cruz Souza 📨️\n\n\n\n\n\nJackson Souza é bacharel (2012), mestre (2015) e doutor (2019) em Linguística pela Universidade Federal de São Carlos (UFSCar). Atualmente, é professor da Universidade Federal da Bahia (UFBA), atuando junto ao Departamento de Ciência, Tecnologia e Inovação e ao Programa de Pós-Graduação em Língua e Cultura da UFBA. Tem interesse nas áreas de análise de discurso, sumarização automática e análise e descrição linguística. Neste livro, colaborou com os Capítulos  Modelos discursivos e  Sumarização Automática.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Jessica  Rodrigues",
+    "href": "autores.html#Jessica  Rodrigues",
+    "title": "Sobre as/os autoras/es",
+    "section": "Jessica  Rodrigues 📨️",
+    "text": "Jessica  Rodrigues 📨️\n\n\n\n\n\nJessica Rodrigues tem graduação e mestrado em Ciência da Computação, sendo o mestrado focado em machine learning e natural language processing, pela Universidade Federal de São Carlos (UFSCar). A experiência acadêmica continua com o PhD em social data science pela University of Oxford, com foco em AI safety, fairness and biases in language models. Jessica também é Lead Data Scientist e é especialista em AI aplicada. Neste livro, colaborou com os Capítulos  Semântica distribucional e  Modelos de linguagem.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#João Paulo  Papa",
+    "href": "autores.html#João Paulo  Papa",
+    "title": "Sobre as/os autoras/es",
+    "section": "João Paulo  Papa 📨️",
+    "text": "João Paulo  Papa 📨️\n\n\n\n\n\nJoão Paulo Papa é formado em Sistemas de Informação pela UNESP, com pós-graduação em processamento de imagens e aprendizado de máquina pela UFSCar e Unicamp, respectivamente. Possui pós-doutorados na Unicamp, Harvard e MIT. É professor titular da Unesp onde atua desde 2009 e suas áreas de interesse incluem visão computacional, processamento de imagens, aprendizado de máquina e aprendizado multimodal. Neste livro, colaborou com os Capítulos  Sumarização Automática e  Treinamento de Grandes Modelos de Linguagem na prática.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#João Renato Ribeiro Manesco",
+    "href": "autores.html#João Renato Ribeiro Manesco",
+    "title": "Sobre as/os autoras/es",
+    "section": "João Renato Ribeiro Manesco 📨️",
+    "text": "João Renato Ribeiro Manesco 📨️\n\n\n\n\n\nJoão Renato Ribeiro Manesco é doutorando em Ciência da Computação pela UNESP, onde também concluiu mestrado e graduação. Durante o mestrado, realizou estágio de pesquisa no Media Integration and Communication Center da Universidade de Florença, Itália. Seus interesses de pesquisa incluem adaptação de domínio, modelos de linguagem generativos e multimodais, e aplicações em contexto médico. Neste livro, colaborou com os Capítulos  Sumarização Automática e  Treinamento de Grandes Modelos de Linguagem na prática.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#João Vitor Mariano Correia",
+    "href": "autores.html#João Vitor Mariano Correia",
+    "title": "Sobre as/os autoras/es",
+    "section": "João Vitor Mariano Correia 📨️",
+    "text": "João Vitor Mariano Correia 📨️\n\n\n\n\n\nJoão Vitor Mariano Correia é bacharel em Ciência da Computação pela UNESP, onde atualmente cursa o mestrado no Programa de Pós-Graduação em Ciência da Computação. Seus principais interesses de pesquisa estão na área de Processamento de Linguagem Natural (PLN), com foco em representações de conhecimento. Neste livro, colaborou com os Capítulos  Sumarização Automática e  Treinamento de Grandes Modelos de Linguagem na prática.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Joaquim  Santos",
+    "href": "autores.html#Joaquim  Santos",
+    "title": "Sobre as/os autoras/es",
+    "section": "Joaquim  Santos 📨️",
+    "text": "Joaquim  Santos 📨️\n\n\n\n\n\nJoaquim Santos fez licenciatura em Matemática na Universidade Regional do Cariri (URCA), é mestre em Ciência da Computação pela PUCRS e atualmente é estudante de doutorado no programa de Computação Aplicada da UNISINOS. Tem trabalhado intensamente com Processamento de Linguagem Natural (PLN) em problemas de extração de informação, modelos de linguagem e bases de conhecimento. Neste livro, colaborou com o capítulo Extração de Informação.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Kenzo  Sakiyama",
+    "href": "autores.html#Kenzo  Sakiyama",
+    "title": "Sobre as/os autoras/es",
+    "section": "Kenzo  Sakiyama 📨️",
+    "text": "Kenzo  Sakiyama 📨️\n\n\n\n\n\nKenzo Sakiyama é formado em Engenharia de Computação pela Universidade Federal do Mato Grosso do Sul (UFMS), com mestrado em Ciência da Computação pelo ICMC/USP. Atualmente possui um doutorado em andamento também no ICMC/USP. Suas áreas de interesse incluem redes neurais profundas, mineração de texto em redes sociais e grafos. Neste livro, colaborou com o capítulo Geração Automática de Ementas Jurídicas.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Laila  Mota",
+    "href": "autores.html#Laila  Mota",
+    "title": "Sobre as/os autoras/es",
+    "section": "Laila  Mota 📨️",
+    "text": "Laila  Mota 📨️\n\n\n\n\n\nLaila Mota é formada em Ciência e Tecnologia pela Universidade Federal da Bahia (UFBA), com pós-graduação em Tecnologia da Informação pela UFBA. Suas áreas de interesse incluem aprendizado de máquina, linguística computacional e modelos de linguagem. Neste livro, colaborou com o capítulo Semântica distribucional.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Larissa Cristina  Berti",
+    "href": "autores.html#Larissa Cristina  Berti",
+    "title": "Sobre as/os autoras/es",
+    "section": "Larissa Cristina  Berti 📨️",
+    "text": "Larissa Cristina  Berti 📨️\n\n\n\n\n\nLarissa Berti é formada em Fonoaudiologia pela UNESP de Marília, com doutorado em Linguística pela Unicamp. É docente do Departamento de Fonoaudiologia da UNESP desde 2009. Sua área de pesquisa é produção e percepção da fala, além do uso de métodos instrumentais na análise de fala. Neste livro, colaborou com o capítulo Classificação de Áudio aplicada à Saúde.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Larissa A. de Freitas",
+    "href": "autores.html#Larissa A. de Freitas",
+    "title": "Sobre as/os autoras/es",
+    "section": "Larissa A. de Freitas 📨️",
+    "text": "Larissa A. de Freitas 📨️\n\n\n\n\n\nLarissa Freitas é doutora em Ciência da Computação pela PUCRS (2015). Atualmente é professa da Universidade Federal de Pelotas (UFPel). Suas áreas de interesse incluem análise de sentimento, ontologias, chatbots, detecção de sarcasmo/ironia, detecção de discurso de ódio e detecção de notícias falsas. Neste livro, colaborou com o capítulo PLN em Redes Sociais.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Lilian Mie Mukai Cintho",
+    "href": "autores.html#Lilian Mie Mukai Cintho",
+    "title": "Sobre as/os autoras/es",
+    "section": "Lilian Mie Mukai Cintho 📨️",
+    "text": "Lilian Mie Mukai Cintho 📨️\n\n\n\n\n\nLilian Mie Mukai Cintho é formada em Enfermagem e Obstetrícia pela Universidade Federal de São Carlos (UFSCar), com pós-graduação em Tecnologia em Saúde na PUCPR. É docente colaboradora na Universidade Estadual de Ponta Grossa (UEPG). Suas áreas de interesse incluem, gerenciamento de programas de promoção à saúde, enfermagem médico cirúrgica e informática em saúde. Neste livro, colaborou com o capítulo PLN na Saúde.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Lívia Vicente Dutra",
+    "href": "autores.html#Lívia Vicente Dutra",
+    "title": "Sobre as/os autoras/es",
+    "section": "Lívia Vicente Dutra 📨️",
+    "text": "Lívia Vicente Dutra 📨️\n\n\n\n\n\nLívia Vicente Dutra é formada em Letras pela Universidade Federal de Juiz de Fora (UFJF) e mestre em Tecnologia Linguística pela Universidade de Gotemburgo, onde atualmente é doutoranda no programa de Multilinguismo. É também pesquisadora do Laboratório FrameNet Brasil. Seus interesses de pesquisa incluem Semântica de Frames e Processamento de Linguagem Natural (PLN). Neste livro, colaborou com o capítulo PLN e Responsabilidade Social.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Lucas Daniel Volpiano Figueiredo",
+    "href": "autores.html#Lucas Daniel Volpiano Figueiredo",
+    "title": "Sobre as/os autoras/es",
+    "section": "Lucas Daniel Volpiano Figueiredo 📨️",
+    "text": "Lucas Daniel Volpiano Figueiredo 📨️\n\n\n\n\n\nLucas Daniel Volpiano Figueiredo é graduando em Sistemas de Informação pelo ICMC-USP. Foi estagiário de Inteligência Artificial no IFSC-USP por oito meses, atuando com implementação e pesquisa. Suas áreas de interesse incluem: PLN, aprendizado de máquina e inteligência artificial. Neste livro, colaborou com o capítulo Redes complexas no processamento de língua natural do português.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Lucas  Lasota",
+    "href": "autores.html#Lucas  Lasota",
+    "title": "Sobre as/os autoras/es",
+    "section": "Lucas  Lasota 📨️",
+    "text": "Lucas  Lasota 📨️\n\n\n\n\n\nLucas Lasota é mestre e doutor pela Universidade RUDN de Moscou com o doutorado reconhecido pela USP. É pesquisador e docente do Just Transition Center da Universidade de Halle-Wittenberg na Alemanha. É pesquisador associado do Weizenbaum Institute for the Networked Society de Berlin. Advogado inscrito na OAB-SP/432126. Sua pesquisa se concentra em medidas regulatórias de tecnologias digitais e seu impacto sobre direitos individuais e coletivos, bem como governança da internet, telecomunicações e direito contratual internacional. Neste livro, colaborou com o capítulo Responsabilidade no desenvolvimento e uso de tecnologias de linguagem baseadas em IA.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Lucelene  Lopes",
+    "href": "autores.html#Lucelene  Lopes",
+    "title": "Sobre as/os autoras/es",
+    "section": "Lucelene  Lopes 📨️",
+    "text": "Lucelene  Lopes 📨️\n\n\n\n\n\nLucelene Lopes é doutora em Ciência da Computação pela PUCRS (2012). Consultora Empresarial na área de Processamento de Linguagem Natural (PLN) desde 2016, e desde 2021 é pesquisadora no ICMC/USP, vinculada ao C4AI. Suas áreas de interesses incluem PLN, aprendizado de máquina, parsing e modelos de linguagem. Neste livro, colaborou com os Capítulos  Sequência de caracteres e palavras e  Ferramentas e recursos para o processamento sintático.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Marcelo  Finger",
+    "href": "autores.html#Marcelo  Finger",
+    "title": "Sobre as/os autoras/es",
+    "section": "Marcelo  Finger 📨️",
+    "text": "Marcelo  Finger 📨️\n\n\n\n\n\nMarcelo Finger é professor titular de Ciência da Copmputação no IME-USP, Pesquisador Principal do Centro de Inteligência Artificial USP-IBM-FAPESP C4AI, com interesses em Geração de Recursos de Processamento de Linguagem Natural (PLN), uso de PLN para a área de Saúde, estudo e interpretabilidade de redes neurais. Neste livro, colaborou com os Capítulos  Complexidade Textual e suas Tarefas Relacionadas,  Classificação de Áudio aplicada à Saúde e  O papel dos dados no pré-treinamento de Grandes Modelos de Linguagem.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Marcelo Matheus  Gauy",
+    "href": "autores.html#Marcelo Matheus  Gauy",
+    "title": "Sobre as/os autoras/es",
+    "section": "Marcelo Matheus  Gauy 📨️",
+    "text": "Marcelo Matheus  Gauy 📨️\n\n\n\n\n\nMarcelo Gauy é Bacharel em Matemática pela Universidade de São Paulo (USP), com mestrado na área de Combinatória pela USP e doutorado em Inteligência Artificial pelo ETH Zuerich, na Suíça. É docente na UNESP desde 2025. Suas áreas de interesse incluem aprendizado profundo, computação bioinspirada, processamento de áudio, combinatória e processos estocásticos. Neste livro, colaborou com o capítulo Classificação de Áudio aplicada à Saúde.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Maria Cristina Ferreira de Oliveira",
+    "href": "autores.html#Maria Cristina Ferreira de Oliveira",
+    "title": "Sobre as/os autoras/es",
+    "section": "Maria Cristina Ferreira de Oliveira 📨️",
+    "text": "Maria Cristina Ferreira de Oliveira 📨️\n\n\n\n\n\nCristina Oliveira é formada em Ciência da Computação pelo ICMC/USP (1985), com pós-graduação em Electronic Engineering pela University of Wales, Bangor, no Reino Unido (1990). É docente do ICMC, no Departamento de Ciências da Computação, desde 1986, como Professora Titular desde 2008. Atua em Ciência da Computação, em projetos de pesquisa que atualmente se concentram nos seguintes temas: visualização de informação, mineração visual de dados, análise visual de dados e aplicações. Neste livro, colaborou com o capítulo Redes complexas no processamento de língua natural do português.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Maria José Bocorny Finatto",
+    "href": "autores.html#Maria José Bocorny Finatto",
+    "title": "Sobre as/os autoras/es",
+    "section": "Maria José Bocorny Finatto 📨️",
+    "text": "Maria José Bocorny Finatto 📨️\n\n\n\n\n\nMaria José Bocorny Finatto é linguista especializada em Estudos do Léxico e Terminologia. Investiga a história das terminologias médicas e modos de aplicar técnicas da Linguagem Simples para maior acessibilidade das informações escritas para diferentes perfis de pessoas no Brasil. Análise textual com recursos PLN é seu foco. Orientadora de mestrado e doutorado junto à Universidade Federal do Rio Grande do Sul (UFRGS). Neste livro, colaborou com os Capítulos  Sequência de caracteres e palavras,  PLN no Direito e  PLN e Humanidades Digitais.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Mariana Lourenço Sturzeneker",
+    "href": "autores.html#Mariana Lourenço Sturzeneker",
+    "title": "Sobre as/os autoras/es",
+    "section": "Mariana Lourenço Sturzeneker 📨️",
+    "text": "Mariana Lourenço Sturzeneker 📨️\n\n\n\n\n\nMariana Lourenço Sturzeneker é graduada em Letras pela Universidade de São Paulo. Faz parte da equipe de desenvolvimento do Córpus Carolina no C4AI (Center for Artificial Intelligence - IBM/USP) desde 2020. Seu interesse principal é na área de construção de córpus. Neste livro, colaborou com o capítulo O papel dos dados no pré-treinamento de Grandes Modelos de Linguagem.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Mariane de Carvalho Pinto",
+    "href": "autores.html#Mariane de Carvalho Pinto",
+    "title": "Sobre as/os autoras/es",
+    "section": "Mariane de Carvalho Pinto 📨️",
+    "text": "Mariane de Carvalho Pinto 📨️\n\n\n\n\n\nMariane Carvalho é graduada em Letras pela Universidade Federal de Juiz de Fora (UFJF), onde cursa o mestrado em Linguística Cognitiva e Computacional. Seu trabalho de pesquisa envolve a geração de roteiros de audiodescrição por Inteligência Artificial (IA), com base na Semântica de Frames e na anotação multimodal. É vinculada ao projeto FrameNet Brasil. Neste livro, colaborou com o capítulo PLN e Responsabilidade Social.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Mariza  Ferro",
+    "href": "autores.html#Mariza  Ferro",
+    "title": "Sobre as/os autoras/es",
+    "section": "Mariza  Ferro 📨️",
+    "text": "Mariza  Ferro 📨️\n\n\n\n\n\nMariza Ferro é formada em Ciência da Computação pela UNIOESTE, com mestrado em Inteligência Artificial no ICMC/USP e doutorado em Modelagem Computacional pelo LNCC. É docente do Instituto de Computação da Universidade Federal Fluminense (UFF) e coordenadora do Núcleo de Referência em IA Ética e Confiável desde 2020. Suas áreas de interesse incluem IA ética, IA verde e sustentável, IA para o estar social e aprendizado de máquina para predição de eventos extremos. Neste livro, colaborou com o capítulo Questões éticas em IA e PLN.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Marli Quadros Leite",
+    "href": "autores.html#Marli Quadros Leite",
+    "title": "Sobre as/os autoras/es",
+    "section": "Marli Quadros Leite 📨️",
+    "text": "Marli Quadros Leite 📨️\n\n\n\n\n\nMarli Quadros Leite é Professora Titular do Departamento de Letras Clássicas e Vernáculas (FFLCH | USP) e atua como pesquisadora nas áreas de análise do Discurso Oral e na de História das Ideias Linguísticas. Atualmente é Pró-Reitora de Cultura e Extensão Universitária da USP. Neste livro, colaborou com o capítulo Recursos para o processamento de fala.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Marlo  Souza",
+    "href": "autores.html#Marlo  Souza",
+    "title": "Sobre as/os autoras/es",
+    "section": "Marlo  Souza 📨️",
+    "text": "Marlo  Souza 📨️\n\n\n\n\n\nMarlo Souza é formado em Ciência da Computação pela Unifacs e em Matemática pela Universidade Federal da Bahia (UFBA), com pós-graduação em PLN e Lógica pela PUC-RS e UFRGS, respectivamente. Atualmente, é professor adjunto na UFBA e co-líder do grupo de pesquisa FORMAS. Tem interesse em pesquisas nas áreas de semântica computacional, extração de informação e modelos de representação de conhecimento em PLN. Neste livro, colaborou com o capítulo Extração de Informação.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Matheus  Cerqueira",
+    "href": "autores.html#Matheus  Cerqueira",
+    "title": "Sobre as/os autoras/es",
+    "section": "Matheus  Cerqueira 📨️",
+    "text": "Matheus  Cerqueira 📨️\n\n\n\n\n\nMatheus Cerqueira é Técnico em Informática pelo Instituto Federal do Paraná (IFPR) de Jacarezinho-PR e graduando em Ciências de Computação pelo ICMC/USP desde 2020. Atualmente, também é estagiário em Engenharia de Software na Google. Suas áreas de interesse incluem Aprendizado de Máquina e, mais especificamente, Processamento de Linguagem Natural (PLN) e Visão Computacional. Neste livro, colaborou com o capítulo Reconhecimento de Entidades Nomeadas no Domínio Legal.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Maucha Andrade Gamonal",
+    "href": "autores.html#Maucha Andrade Gamonal",
+    "title": "Sobre as/os autoras/es",
+    "section": "Maucha Andrade Gamonal 📨️",
+    "text": "Maucha Andrade Gamonal 📨️\n\n\n\n\n\nMaucha Gamonal atua como residente de pós-doutorado na Universidade Federal de Juiz de Fora (UFJF). É pesquisadora vinculada ao Projeto FrameNet Brasil desde 2009. Suas áreas de interesse incluem Linguística Cognitiva, Semântica de Frames e Linguística Computacional. É curiosa sobre a produção de sentido na linguagem humana e gosta de plantas, crianças, ar fresco e de seu golden retriever Luke. Neste livro, colaborou com o capítulo PLN e Responsabilidade Social.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Mayara Feliciano Palma",
+    "href": "autores.html#Mayara Feliciano Palma",
+    "title": "Sobre as/os autoras/es",
+    "section": "Mayara Feliciano Palma 📨️",
+    "text": "Mayara Feliciano Palma 📨️\n\n\n\n\n\nMayara Feliciano Palma é Bacharel em Letras (português e espanhol) pela FFLCH-USP (2021). Entre suas áreas de interesse estão a construção de corpora e agentes. Neste livro, colaborou com o capítulo O papel dos dados no pré-treinamento de Grandes Modelos de Linguagem.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Miguel de Mello Carpi",
+    "href": "autores.html#Miguel de Mello Carpi",
+    "title": "Sobre as/os autoras/es",
+    "section": "Miguel de Mello Carpi 📨️",
+    "text": "Miguel de Mello Carpi 📨️\n\n\n\n\n\nMiguel de Mello Carpi é Bacharel em Ciência da Computação pelo Instituto de Matemática e Estatística da Universidade de São Paulo. Suas áreas de interesse incluem inteligência artificial e processamento de linguagem natural. Neste livro, colaborou com o capítulo O papel dos dados no pré-treinamento de Grandes Modelos de Linguagem.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Nádia Félix Felipe da Silva",
+    "href": "autores.html#Nádia Félix Felipe da Silva",
+    "title": "Sobre as/os autoras/es",
+    "section": "Nádia Félix Felipe da Silva 📨️",
+    "text": "Nádia Félix Felipe da Silva 📨️\n\n\n\n\n\nNádia Félix é formanda em Ciência da Computação pela Universidade Federal de Goiás (UFG), com pós-graduação em Inteligência Computacional no ICMC/USP. É docente na UFG desde 2016. Suas áreas de interesse incluem Aprendizado de Máquina, Processamento de Linguagem Natural (PLN) e Aprendizado Multimodal. Neste livro, colaborou com o capítulo Reconhecimento de Entidades Nomeadas no Domínio Legal.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Nataly Leopoldina Patti da Silva",
+    "href": "autores.html#Nataly Leopoldina Patti da Silva",
+    "title": "Sobre as/os autoras/es",
+    "section": "Nataly Leopoldina Patti da Silva 📨️",
+    "text": "Nataly Leopoldina Patti da Silva 📨️\n\n\n\n\n\nNataly Patti é bacharel e mestre em Sistemas de Informação pela Universidade de São Paulo (USP), onde desenvolveu pesquisas em PLN com foco em Aprendizado Transdutivo e classificação de Atos de Fala. Atualmente, é aluna especial de doutorado na USP e atua como Cientista de Dados no Instituto de Pesquisas SiDi, contribuindo com projetos de PLN, especialmente no Samsung Search e na Bixby. Suas áreas de interesse incluem PLN, aprendizado de máquina e recuperação de informação. Neste livro, colaborou com o capítulo Aprendizado Transdutivo em PLN.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Norton Trevisan Roman",
+    "href": "autores.html#Norton Trevisan Roman",
+    "title": "Sobre as/os autoras/es",
+    "section": "Norton Trevisan Roman 📨️",
+    "text": "Norton Trevisan Roman 📨️\n\n\n\n\n\nNorton Trevisan Roman é Bacharel em Física, com Mestrado e Doutorado em Ciência da Computação com foco em PLN, todos pela Unicamp, possuindo também Livre-Docência pela USP. Docente na EACH-USP desde 2010, suas áreas de interesse incluem Processamento de Língua Natural e aplicações de PLN e IA a diversas tarefas, indo desde o tratamento de emoção e sentimento à predição do mercado financeiro. Neste livro, colaborou com o capítulo Aprendizado Transdutivo em PLN.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Osvaldo Novais de Oliveira Jr.",
+    "href": "autores.html#Osvaldo Novais de Oliveira Jr.",
+    "title": "Sobre as/os autoras/es",
+    "section": "Osvaldo Novais de Oliveira Jr. 📨️",
+    "text": "Osvaldo Novais de Oliveira Jr. 📨️\n\n\n\n\n\nOsvaldo Novais de Oliveira Jr. é físico, professor do Instituto de Física da Universidade de São Paulo (USP) de São Carlos, e um dos membros fundadores do Núcleo Interinstitucional de Linguística Computacional (NILC). Suas áreas de interesse são a ciência dos materiais, além de PLN. Neste livro, colaborou com o capítulo Redes complexas no processamento de língua natural do português.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Paula Christina Figueira Cardoso",
+    "href": "autores.html#Paula Christina Figueira Cardoso",
+    "title": "Sobre as/os autoras/es",
+    "section": "Paula Christina Figueira Cardoso 📨️",
+    "text": "Paula Christina Figueira Cardoso 📨️\n\n\n\n\n\nPaula Figueira Cardoso tem graduação em Informática pelo ILES de Santarém, mestrado em Engenharia Elétrica pela Universidade Federal do Pará (UFPA) e doutorado pelo Instituto de Ciências Matemáticas e de Computação (ICMC) – USP/São Carlos. Atualmente é docente na UFPA. Suas áreas de interesse incluem geração de textos, sumarização automática, tecnologias educacionais e pesquisas aplicadas na área de interface homem-máquina. Neste livro, colaborou com os Capítulos  Modelos discursivos e  Sumarização Automática.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Pedro Henrique  Paiola",
+    "href": "autores.html#Pedro Henrique  Paiola",
+    "title": "Sobre as/os autoras/es",
+    "section": "Pedro Henrique  Paiola 📨️",
+    "text": "Pedro Henrique  Paiola 📨️\n\n\n\n\n\nPedro Henrique Paiola é mestre e doutorando em Ciência da Computação pela UNESP, onde também atua como professor substituto desde 2022. É pesquisador no projeto RADIAR, desenvolvido em parceria com a Petrobras. Suas áreas de interesse incluem sumarização automática, modelos de linguagem e avaliação automática de texto. Neste livro, colaborou com os Capítulos  Sumarização Automática e  Treinamento de Grandes Modelos de Linguagem na prática.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Priscila Osório Côrtes",
+    "href": "autores.html#Priscila Osório Côrtes",
+    "title": "Sobre as/os autoras/es",
+    "section": "Priscila Osório Côrtes 📨️",
+    "text": "Priscila Osório Côrtes 📨️\n\n\n\n\n\nPriscila Osório Côrtes é formada em Letras Alemão/Português pela Universidade Federal de Minas Gerais (UFMG) e mestre em linguística pela Albert Ludwigs-Universität Freiburg, Alemanha. Trabalha há mais de 7 anos na área de Processamento de Linguagem Natural (PLN), e há mais de 5 com processamento de fala na empresa SiDi Campinas. Neste livro, colaborou com o capítulo Texto ou fala?.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Priscilla de Abreu Lopes",
+    "href": "autores.html#Priscilla de Abreu Lopes",
+    "title": "Sobre as/os autoras/es",
+    "section": "Priscilla de Abreu Lopes 📨️",
+    "text": "Priscilla de Abreu Lopes 📨️\n\n\n\n\n\nPriscilla de Abreu Lopes é formada em Ciência da Computação pela Universidade Federal de São Carlos (UFSCar), com pós-graduação em inteligência artificial no PPGCC/UFSCar. Suas áreas de interesse incluem Aprendizado de Máquina (AM) e Processamento de Linguagem Natural (PLN). Neste livro, colaborou com o capítulo Correção Automática de Redação.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Raphael  Montanari",
+    "href": "autores.html#Raphael  Montanari",
+    "title": "Sobre as/os autoras/es",
+    "section": "Raphael  Montanari 📨️",
+    "text": "Raphael  Montanari 📨️\n\n\n\n\n\nRaphael Montanari é formado em Ciências de Computação pela Universidade de São Paulo (USP), com pós-graduação em Inteligência Artificial (IA) e robótica no ICMC/USP. É servidor na USP desde 2013. Suas áreas de interesse incluem aprendizado de máquina, visão computacional e aplicações de Processamento de Linguagem Natural (PLN) para robótica. Neste livro, colaborou com o capítulo Geração Automática de Ementas Jurídicas.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Renata  Ramisch",
+    "href": "autores.html#Renata  Ramisch",
+    "title": "Sobre as/os autoras/es",
+    "section": "Renata  Ramisch 📨️",
+    "text": "Renata  Ramisch 📨️\n\n\n\n\n\nRenata Ramisch é formada em Letras pela Universidade Federal do Rio Grande do Sul (UFRGS) e mestre em Linguística pela Universidade Federal de São Carlos (UFSCar). É linguista na Redação Nota 1000, que faz parte do grupo Somos Educação. Suas áreas de interesse incluem correção automática de redações e tratamento computacional de expressões multipalavras. Neste livro, colaborou com o capítulo Expressões multipalavras.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Renata  Vieira",
+    "href": "autores.html#Renata  Vieira",
+    "title": "Sobre as/os autoras/es",
+    "section": "Renata  Vieira 📨️",
+    "text": "Renata  Vieira 📨️\n\n\n\n\n\nRenata Vieira é PhD em Informática e Ciências Cognitivas pela Universidade de Edimburgo, Escócia. É pesquisadora da área de Processamento de Linguagem Natural (PLN) atuando em diversas áreas de aplicação. É investigadora principal convidada do Centro de História, Culturas e Sociedades da Universidade de Évora (Portugal) e conselheira científica do Instituto de Inteligência Artificial na Saúde. Neste livro, colaborou com os Capítulos  Resolução de correferência,  Perguntas e Respostas,  Extração de Informação e  PLN e Humanidades Digitais.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Renato Moraes Silva",
+    "href": "autores.html#Renato Moraes Silva",
+    "title": "Sobre as/os autoras/es",
+    "section": "Renato Moraes Silva 📨️",
+    "text": "Renato Moraes Silva 📨️\n\n\n\n\n\nRenato Moraes Silva é graduado em Licenciatura Plena em Informática pela UFMT (2010) e Mestre (2013) e Doutor (2017) em Engenharia Elétrica pela Unicamp. Foi pesquisador de pós-doutorado pela UFSCar/Sorocaba (2017-2021) e professor e pesquisador no Centro Universitário Facens (2021-2024). Atualmente, é docente no ICMC/USP. Sua pesquisa é voltada para o PLN, com ênfase em aplicações como análise de sentimentos, detecção de spam, classificação de mensagens instantâneas e identificação de fake news. Além disso, desenvolveu pesquisas que aplicam aprendizado de máquina a problemas de visão computacional e estudos que utilizam análises de dados no contexto do setor financeiro. Neste livro, colaborou com o capítulo Detecção Automática de Notícias Falsas.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Ricardo  Marcacini",
+    "href": "autores.html#Ricardo  Marcacini",
+    "title": "Sobre as/os autoras/es",
+    "section": "Ricardo  Marcacini 📨️",
+    "text": "Ricardo  Marcacini 📨️\n\n\n\n\n\nRicardo Marcacini é formado em Informática pela Universidade de São Paulo (USP), com pós-graduação em ciência de computação e matemática computacional no ICMC/USP. Atualmente é docente do Departamento de Ciências de Computação (SCC) do ICMC/USP. Realiza pesquisa na área de aprendizado de máquina, com foco em mineração de textos, análise de eventos e análise de sentimentos. Neste livro, colaborou com o capítulo Recursos para o processamento de fala.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Roana  Rodrigues",
+    "href": "autores.html#Roana  Rodrigues",
+    "title": "Sobre as/os autoras/es",
+    "section": "Roana  Rodrigues 📨️",
+    "text": "Roana  Rodrigues 📨️\n\n\n\n\n\nRoana Rodrigues é formada em Letras, mestra e doutora em Linguística pela Universidade Federal de São Carlos (UFSCar). É docente do Departamento de Letras Estrangeiras da Universidade Federal de Sergipe (UFS). Suas áreas de interesse incluem sintaxe, semântica, estudos do léxico e Processamento de Linguagem Natural (PLN). Neste livro, colaborou com o capítulo Modelos discursivos.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Rodrigo  Nogueira",
+    "href": "autores.html#Rodrigo  Nogueira",
+    "title": "Sobre as/os autoras/es",
+    "section": "Rodrigo  Nogueira 📨️",
+    "text": "Rodrigo  Nogueira 📨️\n\n\n\n\n\nRodrigo Nogueira é formado em Engenharia Elétrica pela UNICAMP e possui doutorado em Ciência da Computação pela Universidade de Nova York (NYU). Ao longo de sua carreira, Nogueira contribuiu para os campos de Recuperação de Informação e PLN através da criação de modelos como BERTimbau, doc2query, monoT5, e mais recentemente, os modelos Sabiá 1, 2 e 3, que são LLMs especializados no Brasil. Nogueira é o fundador e CEO da Maritaca AI, uma empresa especializada no desenvolvimento de LLMs especializados no Brasil. Neste livro, colaborou com o capítulo Geração Automática de Ementas Jurídicas.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Roney Lira de Sales Santos",
+    "href": "autores.html#Roney Lira de Sales Santos",
+    "title": "Sobre as/os autoras/es",
+    "section": "Roney Lira de Sales Santos 📨️",
+    "text": "Roney Lira de Sales Santos 📨️\n\n\n\n\n\nRoney Santos é formado em Ciência da Computação pela Universidade Federal do Piauí (UFPI) em 2014, com mestrado em Processamento de Linguagem Natural (PLN) na UFPI e doutorado em PLN no ICMC/USP. É docente no ICTI/UFBA desde 2023. Suas áreas de interesse incluem inteligência arttificial, aprendizado de máquina, PLN e detecção de conteúdo enganoso. Neste livro, colaborou com o capítulo Detecção Automática de Notícias Falsas.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Roseli A. F. Romero",
+    "href": "autores.html#Roseli A. F. Romero",
+    "title": "Sobre as/os autoras/es",
+    "section": "Roseli A. F. Romero 📨️",
+    "text": "Roseli A. F. Romero 📨️\n\n\n\n\n\nRoseli A. F. Romero fez graduação e Mestrado no ICMC-USP e Doutorado na FEEC-UNICAMP. É professora titular do ICMC-USP desde 2013 e trabalha na área de inteligência artificial há 30 anos. Suas áreas de interesse incluem aprendizado de máquina, aprendizado profundo, com aplicação nas áreas de visão computacional, educação, meio ambiente, robótica e direito. Neste livro, colaborou com o capítulo Geração Automática de Ementas Jurídicas.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Roseval Donisete Malaquias Junior",
+    "href": "autores.html#Roseval Donisete Malaquias Junior",
+    "title": "Sobre as/os autoras/es",
+    "section": "Roseval Donisete Malaquias Junior 📨️",
+    "text": "Roseval Donisete Malaquias Junior 📨️\n\n\n\n\n\nRoseval Donisete Malaquias Junior é bacharel em Ciência da Computação pela Universidade Federal de São Carlos (UFSCar) e mestrando em Ciência da Computação e Matemática Computacional no ICMC/USP. É pesquisador na Maritaca AI desde 2024. Suas áreas de interesse incluem aprendizado de máquina, grandes modelos de linguagem e pré-treinamento contínuo. Neste livro, colaborou com o capítulo Geração Automática de Ementas Jurídicas.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Sandra Maria Aluísio",
+    "href": "autores.html#Sandra Maria Aluísio",
+    "title": "Sobre as/os autoras/es",
+    "section": "Sandra Maria Aluísio 📨️",
+    "text": "Sandra Maria Aluísio 📨️\n\n\n\n\n\nSandra Maria Aluísio é formada em Ciência da Computação pela UFSCar, com Doutorado em IA e PLN, pela USP. Foi docente de 1988 a 2018, no ICMC/USP, onde hoje atua no Programa Professor Sênior. As áreas de interesse incluem linguística de corpus, simplificação textual, recursos semânticos, detecção automática da estrutura do discurso científico e ferramentas de suporte à escrita, análise automática de distúrbios de linguagem, e processamento de fala. Neste livro, colaborou com os Capítulos  Recursos para o processamento de fala e  Complexidade Textual e suas Tarefas Relacionadas.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Sheila  Castilho",
+    "href": "autores.html#Sheila  Castilho",
+    "title": "Sobre as/os autoras/es",
+    "section": "Sheila  Castilho 📨️",
+    "text": "Sheila  Castilho 📨️\n\n\n\n\n\nSheila Castilho é licenciada em Letras pela UNIOESTE. Possui mestrado em PLN pela Universidade do Algarve (PT) e pela University of Wolverhampton (UK). Completou seu doutorado pela Dublin City University em 2016. Atualmente, ela é Assistant Professor na Dublin City University. Seus interesses incluem tradução automática, avaliação automática e humana, tecnologias da tradução, e PLN para tradução. Neste livro, colaborou com o capítulo Tradução Automática.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Sidney Evaldo Leal",
+    "href": "autores.html#Sidney Evaldo Leal",
+    "title": "Sobre as/os autoras/es",
+    "section": "Sidney Evaldo Leal 📨️",
+    "text": "Sidney Evaldo Leal 📨️\n\n\n\n\n\nSidney Leal é pesquisador e cientista de dados no Venturus; pós-doc em Processamento de Fala (Tarsila/C4AI/USP); doutor em Ciências da Computação na área de Inteligência Artificial; MBA em Gestão da Tecnologia da Informação; bacharel em Ciência da Computação e técnico em Processamento de Dados. Atua na indústria desde 1995 em projetos de tecnologia de diversos portes para governos, bancos e multinacionais. Áreas de interesse: aprendizagem de máquina, processamento de linguagem natural, reconhecimento e síntese de fala, complexidade/simplificação de textos e internet das coisas. Neste livro, colaborou com o capítulo Complexidade Textual e suas Tarefas Relacionadas.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Solange  Rezende",
+    "href": "autores.html#Solange  Rezende",
+    "title": "Sobre as/os autoras/es",
+    "section": "Solange  Rezende 📨️",
+    "text": "Solange  Rezende 📨️\n\n\n\n\n\nSolange Rezende é docente e pesquisadora no Laboratório de Inteligência Computacional (LABIC) do Departamento de Ciências de Computação do ICMC/USP desde 1991. Tem experiência na área de IA, atuando principalmente nos temas relacionados com mineração de dados e textos, análise de sentimentos e sistemas de recomendação. Possui graduação em licenciatura em Ciências Habilitação em Matemática pela UFU (1986), mestrado em Ciências de Computação e Matemática Computacional pela USP (1990) e doutorado em Engenharia Mecânica – São Carlos pela USP (1993). Realizou pós-doutorado na Universidade de Minnesota, USA (1995-1996). Neste livro, colaborou com o capítulo Recursos para o processamento de fala.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Tayane  Soares",
+    "href": "autores.html#Tayane  Soares",
+    "title": "Sobre as/os autoras/es",
+    "section": "Tayane  Soares 📨️",
+    "text": "Tayane  Soares 📨️\n\n\n\n\n\nTayane Soares é Cientista de Dados na empresa Blip, formada em Letras pela UFMG e mestra em Linguística Aplicada pelo PosLin-UFMG. No mestrado, seu trabalho de pesquisa teve como foco a avaliação de viés de gênero em modelos de tradução automática, especificamente no par linguístico inglês-português. Seu interesse de pesquisa abrange a interseção entre linguagem e tecnologia, incluindo linguística computacional, processamento de língua natural e aprendizado de máquina. Além disso, também se interessa em pesquisar e avaliar como a aplicação dessas técnicas em tecnologias digitais afeta a sociedade e as pessoas que as utilizam. Neste livro, colaborou com o capítulo Questões éticas em IA e PLN.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Thiago Castro Ferreira",
+    "href": "autores.html#Thiago Castro Ferreira",
+    "title": "Sobre as/os autoras/es",
+    "section": "Thiago Castro Ferreira 📨️",
+    "text": "Thiago Castro Ferreira 📨️\n\n\n\n\n\nThiago Castro Ferreira é Bacharel (2008-2012) e Mestre em Ciências (2012-2014) pelo curso de Sistemas de Informação da Universidade de São Paulo. Com foco em Geração de Língua Natural, possui doutorado pela Universidade de Tilburg (2015-2018), e pós-doutorados também pela Universidade de Tilburg (2018-2019) e Universidade Federal de Minas Gerais (2019-2021). Thiago é atualmente um Cientista Aplicado na aiXplain com interesses em Engenharia de Software, Processamento de Linguagem Natural, Aprendizado de Máquina, Modelos de Linguagem e Agentes. Neste livro, colaborou com o capítulo Geração de linguagem natural.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Thiago Alexandre Salgueiro Pardo",
+    "href": "autores.html#Thiago Alexandre Salgueiro Pardo",
+    "title": "Sobre as/os autoras/es",
+    "section": "Thiago Alexandre Salgueiro Pardo 📨️",
+    "text": "Thiago Alexandre Salgueiro Pardo 📨️\n\n\n\n\n\nThiago Alexandre Salgueiro Pardo é formado em Ciências da Computação, com foco em pesquisa em PLN. Fez graduação e Mestrado na UFSCar e doutorado e pós-doutorado no ICMC/USP. É professor titular no ICMC, onde atua desde 2006. Seus interesses incluem análise de sentimentos, detecção de notícias falsas, sumarização de textos e modelos linguístico-computacionais de representação textual e métodos automáticos de análise. Neste livro, colaborou com o capítulo Detecção Automática de Notícias Falsas.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Tiago Timponi Torrent",
+    "href": "autores.html#Tiago Timponi Torrent",
+    "title": "Sobre as/os autoras/es",
+    "section": "Tiago Timponi Torrent 📨️",
+    "text": "Tiago Timponi Torrent 📨️\n\n\n\n\n\nTiago Torrent é doutor em Linguística pela Universidade Federal do Rio de Janeiro (UFRJ), tendo feito mestrado e graduação em Letras na Universidade Federal de Juiz de Fora (UFJF). É professor do Programa de Pós-Graduação em Linguística e lidera o laboratório FrameNet Brasil da UFJF desde 2010. Seus interesses de pesquisa são modelos de língua aplicados à saúde digital e ao processamento computacional da multimodalidade. Neste livro, colaborou com o capítulo PLN e Responsabilidade Social.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Valéria  de Paiva",
+    "href": "autores.html#Valéria  de Paiva",
+    "title": "Sobre as/os autoras/es",
+    "section": "Valéria  de Paiva 📨️",
+    "text": "Valéria  de Paiva 📨️\n\n\n\n\n\nValeria de Paiva é formada em Matemática pela PUC-Rio, com pós-graduação em Algebra na PUC e e mestrado/doutorado na Universidade de Cambridge, UK. É pesquisadora principal (Principal Researcher) no Topos Institute desde 2021. Suas áreas de interesse incluem semântica de linguagem natural, inferência em linguagem natural, recursos léxico-semânticos e lógica, especialmente lógica categórica. Gosta de sistemas híbridos de PLN, open software, dependências universais e da OpenWordNet-PT. Fundadora de Women in Logic e Lógicas Brasileiras. Neste livro, colaborou com o capítulo Semântica com técnicas simbólicas.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Vanessa Martins do Monte",
+    "href": "autores.html#Vanessa Martins do Monte",
+    "title": "Sobre as/os autoras/es",
+    "section": "Vanessa Martins do Monte 📨️",
+    "text": "Vanessa Martins do Monte 📨️\n\n\n\n\n\nVanessa Martins do Monte é mestre e doutora em Filologia e Língua Portuguesa pela FFLCH-USP, onde atua como docente desde 2014. Coordena o Projeto M.A.P. – Mulheres na América Portuguesa e integra o C4AI – Centro de Inteligência Artificial da USP, atuando na constituição de corpora para PLN. Suas pesquisas concentram-se em Filologia e Humanidades Digitais. Neste livro, colaborou com o capítulo O papel dos dados no pré-treinamento de Grandes Modelos de Linguagem.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Vinícius G. Santos",
+    "href": "autores.html#Vinícius G. Santos",
+    "title": "Sobre as/os autoras/es",
+    "section": "Vinícius G. Santos 📨️",
+    "text": "Vinícius G. Santos 📨️\n\n\n\n\n\nVinícius G. Santos é graduado, mestre e doutor em Letras pela Universidade de São Paulo. Atualmente realiza pesquisa de pós-doutorado vinculada ao C4AI–USP. Atua na área de descrição e análise linguística de variedades africanas e brasileiras da língua portuguesa, com especial interesse em fonologia, prosódia, entoação e elaboração de recursos para PLN. Neste livro, colaborou com o capítulo Recursos para o processamento de fala.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Vitor Hugo Bridi Dei Santi",
+    "href": "autores.html#Vitor Hugo Bridi Dei Santi",
+    "title": "Sobre as/os autoras/es",
+    "section": "Vitor Hugo Bridi Dei Santi 📨️",
+    "text": "Vitor Hugo Bridi Dei Santi 📨️\n\n\n\n\n\nVitor Hugo Bridi Dei Santi é formado em Física Computacional pela Universidade de São Paulo (USP). Atualmente, é mestrando no Programa de Pós-Graduação em Física Computacional do IFSC-USP. Suas áreas de interesse incluem redes complexas, simulações computacionais e análise de literatura científica por técnicas de PLN e IA. Neste livro, colaborou com o capítulo Redes complexas no processamento de língua natural do português.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Viviane Pereira Moreira",
+    "href": "autores.html#Viviane Pereira Moreira",
+    "title": "Sobre as/os autoras/es",
+    "section": "Viviane Pereira Moreira 📨️",
+    "text": "Viviane Pereira Moreira 📨️\n\n\n\n\n\nViviane P. Moreira é doutora em computação na Middlesex University (2004), Inglaterra, mestre em ciência da computação na Universidade Federal do Rio Grande do Sil (UFRGS, 1999) e bacharel em análise de sistemas na UCPel (1996). É professora na UFRGS e orientadora do Programa de Pós-Graduação em Computação. Sua pesquisa concentra-se em recuperação de informação, Processamento de Linguagem Natural (PLN) e mineração de dados. Neste livro, colaborou com o capítulo Recuperação de Informação.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Vládia  Pinheiro",
+    "href": "autores.html#Vládia  Pinheiro",
+    "title": "Sobre as/os autoras/es",
+    "section": "Vládia  Pinheiro 📨️",
+    "text": "Vládia  Pinheiro 📨️\n\n\n\n\n\nVládia Pinheiro é formada em Ciência da Computação pela Universidade Federal do Ceará (UFC), com doutorado em Ciência da Computação na mesma universidade. É docente do Programa de Pós-Graduação em Informática Aplicada, na UNIFOR, desde 2011. Suas áreas de interesse incluem recursos semânticos, parsers semânticos, extração de informação, sumarização de textos, chatbots, aplicações de inteligência artificial e ciência de dados. Neste livro, colaborou com o capítulo Semântica com técnicas simbólicas.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
+    "objectID": "autores.html#Yohan Bonescki Gumiel",
+    "href": "autores.html#Yohan Bonescki Gumiel",
+    "title": "Sobre as/os autoras/es",
+    "section": "Yohan Bonescki Gumiel 📨️",
+    "text": "Yohan Bonescki Gumiel 📨️\n\n\n\n\n\nYohan Bonescki Gumiel é formado em Engenharia de Controle e Automação, com uma carreira dedicada à tecnologia e inovação. Ele fez doutorado na área de PLN voltada a textos clínicos, um campo de estudo que demonstra sua paixão por unir tecnologia e saúde. Atualmente, Yohan ocupa o cargo de cientista de dados na A3data e é pós-doutorando na UFMG, onde continua a aprofundar sua pesquisa e conhecimento em áreas críticas. Suas áreas de interesse incluem aprendizado de máquina, PLN e aplicações voltadas à saúde. Neste livro, colaborou com o capítulo PLN na Saúde.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  }
+]
