@@ -150,6 +150,16 @@
     ]
   },
   {
+    "objectID": "autores.html#Altigran Soares Silva",
+    "href": "autores.html#Altigran Soares Silva",
+    "title": "Sobre as/os autoras/es",
+    "section": "Altigran Soares Silva 📨️",
+    "text": "Altigran Soares Silva 📨️\n\n\n\n\n\nAltigran Soares da Silva concluiu doutorado em Ciência da Computação pela UFMG (2002) e é professor titular do Instituto de Computação da UFAM. Seus interesses incluem: Aprendizagem de Máquina, Modelos de Linguagem, Engenharia de Dados e Recuperação de Informação. Neste livro, colaborou nos capítulos Avaliação de Large Language Models: Fundamentos, Métricas Tradicionais e Desafios Atuais e Fundamentos da Geração Aumentada por Recuperação. Neste livro, colaborou com os Capítulos  Avaliação de Grandes Modelos de Linguagem e  Geração Aumentada por Recuperação (RAG).",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
     "objectID": "autores.html#Amanda Pontes Rassi",
     "href": "autores.html#Amanda Pontes Rassi",
     "title": "Sobre as/os autoras/es",
@@ -195,16 +205,6 @@
     "title": "Sobre as/os autoras/es",
     "section": "André Carlos Ponce de Leon Ferreira de Carvalho 📨️",
     "text": "André Carlos Ponce de Leon Ferreira de Carvalho 📨️\n\n\n\n\n\nAndré Carlos de Carvalho é professor titular do ICMC-USP e Vice-Diretor do Centro de Inteligência Artificial e Aprendizado de Máquina (CIAAM) da USP. Seus principais interesses de pesquisa são Aprendizado de Máquina, Mineração de Dados e Ciência de Dados, com aplicações em várias áreas. Escreveu vários livros, entre eles Inteligência Artificial: Uma abordagem de Aprendizado de Máquina, publicado pelo GrupoGen em 2011 e prêmio Jabuti 2012, e A General Introduction to Data Analytics, publicado pela Wiley, em 2018. Neste livro, colaborou com o capítulo Reconhecimento de Entidades Nomeadas no Domínio Legal.",
-    "crumbs": [
-      "**Sobre as/os autoras/es**"
-    ]
-  },
-  {
-    "objectID": "autores.html#Altigran Soares Silva",
-    "href": "autores.html#Altigran Soares Silva",
-    "title": "Sobre as/os autoras/es",
-    "section": "Altigran Soares Silva 📨️",
-    "text": "Altigran Soares Silva 📨️\n\n\n\n\n\nAltigran Soares da Silva concluiu doutorado em Ciência da Computação pela UFMG (2002) e é professor titular do Instituto de Computação da UFAM. Seus interesses incluem: Aprendizagem de Máquina, Modelos de Linguagem, Engenharia de Dados e Recuperação de Informação. Neste livro, colaborou nos capítulos Avaliação de Large Language Models: Fundamentos, Métricas Tradicionais e Desafios Atuais e Fundamentos da Geração Aumentada por Recuperação. Neste livro, colaborou com os Capítulos  Avaliação de Grandes Modelos de Linguagem e  Geração Aumentada por Recuperação (RAG).",
     "crumbs": [
       "**Sobre as/os autoras/es**"
     ]
@@ -1090,6 +1090,16 @@
     ]
   },
   {
+    "objectID": "autores.html#Thiago Alexandre Salgueiro Pardo",
+    "href": "autores.html#Thiago Alexandre Salgueiro Pardo",
+    "title": "Sobre as/os autoras/es",
+    "section": "Thiago Alexandre Salgueiro Pardo 📨️",
+    "text": "Thiago Alexandre Salgueiro Pardo 📨️\n\n\n\n\n\nThiago Alexandre Salgueiro Pardo é formado em Ciências da Computação, com foco em pesquisa em PLN. Fez graduação e Mestrado na UFSCar e doutorado e pós-doutorado no ICMC/USP. É professor titular no ICMC, onde atua desde 2006. Seus interesses incluem análise de sentimentos, detecção de notícias falsas, sumarização de textos e modelos linguístico-computacionais de representação textual e métodos automáticos de análise. Neste livro, colaborou com o capítulo Detecção Automática de Notícias Falsas.",
+    "crumbs": [
+      "**Sobre as/os autoras/es**"
+    ]
+  },
+  {
     "objectID": "autores.html#Thiago Castro Ferreira",
     "href": "autores.html#Thiago Castro Ferreira",
     "title": "Sobre as/os autoras/es",
@@ -1100,11 +1110,11 @@
     ]
   },
   {
-    "objectID": "autores.html#Thiago Alexandre Salgueiro Pardo",
-    "href": "autores.html#Thiago Alexandre Salgueiro Pardo",
+    "objectID": "autores.html#Tiago Agostinho de Almeida",
+    "href": "autores.html#Tiago Agostinho de Almeida",
     "title": "Sobre as/os autoras/es",
-    "section": "Thiago Alexandre Salgueiro Pardo 📨️",
-    "text": "Thiago Alexandre Salgueiro Pardo 📨️\n\n\n\n\n\nThiago Alexandre Salgueiro Pardo é formado em Ciências da Computação, com foco em pesquisa em PLN. Fez graduação e Mestrado na UFSCar e doutorado e pós-doutorado no ICMC/USP. É professor titular no ICMC, onde atua desde 2006. Seus interesses incluem análise de sentimentos, detecção de notícias falsas, sumarização de textos e modelos linguístico-computacionais de representação textual e métodos automáticos de análise. Neste livro, colaborou com o capítulo Detecção Automática de Notícias Falsas.",
+    "section": "Tiago Agostinho de Almeida 📨️",
+    "text": "Tiago Agostinho de Almeida 📨️\n\n\n\n\n\nTiago Almeida é professor associado da UFSCar e especialista em ciência de dados, aprendizado de máquina e processamento de linguagem natural. Possui experiência em ensino e pesquisa em Inteligência Computacional, Aprendizado de Máquina e Reconhecimento de Padrões. É autor de um livro premiado de aprendizado de máquina e +100 artigos científicos. Neste livro, colaborou com o capítulo Classificação de texto.",
     "crumbs": [
       "**Sobre as/os autoras/es**"
     ]
