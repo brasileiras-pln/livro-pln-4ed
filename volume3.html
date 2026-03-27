@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Volume 3 – Processamento de Linguagem Natural</title>
+<title>Volume 3: Aplicações e Domínios – Processamento de Linguagem Natural</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -91,7 +126,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./volume1.html"><strong>Volumes</strong></a></li><li class="breadcrumb-item"><a href="./volume3.html">Volume 3</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./volume1.html"><strong>Volumes</strong></a></li><li class="breadcrumb-item"><a href="./volume3.html">Volume 3: Aplicações e Domínios</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -168,19 +203,19 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./volume1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Volume 1</span></a>
+ <span class="menu-text">Volume 1: Conceitos e Técnicas</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./volume2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Volume 2</span></a>
+ <span class="menu-text">Volume 2: Modelos de Linguagem</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./volume3.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Volume 3</span></a>
+ <span class="menu-text">Volume 3: Aplicações e Domínios</span></a>
   </div>
 </li>
       </ul>
@@ -196,15 +231,21 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Conteúdo</h2>
+   
+  <ul>
+  <li><a href="#como-citar" id="toc-como-citar" class="nav-link active" data-scroll-target="#como-citar">Como citar</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./volume1.html"><strong>Volumes</strong></a></li><li class="breadcrumb-item"><a href="./volume3.html">Volume 3</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./volume1.html"><strong>Volumes</strong></a></li><li class="breadcrumb-item"><a href="./volume3.html">Volume 3: Aplicações e Domínios</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Volume 3</h1>
+<h1 class="title">Volume 3: Aplicações e Domínios</h1>
 </div>
 
 
@@ -222,8 +263,43 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p><a href="../livro-pln-4ed-vol3/index.html"><img src="shared/capa/capa_4a-edicao_vol3.png" class="img-fluid" style="width:50.0%"></a></p>
+<p>Dos dezoito capítulos deste volume, oito ilustram o PLN em várias aplicações: classificação de textos (<span>capítulo <a href="https://brasileiraspln.ufscar.br/livro-pln-4ed-vol3/aplicacoes-e-dominios/cap-classificacao/cap-classificacao.html#sec-cap-classificacao" target="_blank" title="Volume 3">Classificação de texto</a></span>), recuperação (<span>capítulo <a href="https://brasileiraspln.ufscar.br/livro-pln-4ed-vol3/aplicacoes-e-dominios/cap-ir/cap-ir.html#sec-cap-ir" target="_blank" title="Volume 3">Recuperação de Informação</a></span>) e extração (<span>capítulo <a href="https://brasileiraspln.ufscar.br/livro-pln-4ed-vol3/aplicacoes-e-dominios/cap-ie/cap-ie.html#sec-cap-ie" target="_blank" title="Volume 3">Extração de Informação</a></span>) de informações, tradução (<span>capítulo <a href="https://brasileiraspln.ufscar.br/livro-pln-4ed-vol3/aplicacoes-e-dominios/cap-mt/cap-mt.html#sec-cap-mt" target="_blank" title="Volume 3">Tradução Automática</a></span>) ou sumarização (<span>capítulo <a href="https://brasileiraspln.ufscar.br/livro-pln-4ed-vol3/aplicacoes-e-dominios/cap-as/cap-as.html#sec-cap-as" target="_blank" title="Volume 3">Sumarização Automática</a></span>) automáticas, avaliação de complexidade textual (<span>capítulo <a href="https://brasileiraspln.ufscar.br/livro-pln-4ed-vol3/aplicacoes-e-dominios/cap-complexidade-textual/cap-complexidade-textual.html#sec-cap-complexidade-textual" target="_blank" title="Volume 3">Complexidade Textual e suas Tarefas Relacionadas</a></span>) e correção automática de redações (<span>capítulo <a href="https://brasileiraspln.ufscar.br/livro-pln-4ed-vol3/aplicacoes-e-dominios/cap-aes/cap-aes.html#sec-cap-aes" target="_blank" title="Volume 3">Correção Automática de Redação</a></span>) e detecção de notícias falsas (<em>fake news</em>) (<span>capítulo <a href="https://brasileiraspln.ufscar.br/livro-pln-4ed-vol3/aplicacoes-e-dominios/cap-fake-news/cap-fake-news.html#sec-cap-fake-news" target="_blank" title="Volume 3">Detecção Automática de Notícias Falsas</a></span>).</p>
+<p>Três capítulos ilustram o PLN aplicado ao domínio da saúde: o <span>capítulo <a href="https://brasileiraspln.ufscar.br/livro-pln-4ed-vol3/aplicacoes-e-dominios/cap-saude/cap-saude.html#sec-cap-saude" target="_blank" title="Volume 3">PLN na Saúde</a></span> discorre sobre as tarefas de PLN comuns a esse domínio; o <span>capítulo <a href="https://brasileiraspln.ufscar.br/livro-pln-4ed-vol3/aplicacoes-e-dominios/cap-saude-mental/cap-saude-mental.html#sec-cap-saude-mental" target="_blank" title="Volume 3">Detecção de Transtornos de Saúde Mental a partir de Texto</a></span> traz uma aplicação na área de saúde mental; e o <span>capítulo <a href="https://brasileiraspln.ufscar.br/livro-pln-4ed-vol3/aplicacoes-e-dominios/cap-fala-respiratorios/cap-fala-respiratorios.html#sec-cap-fala-respiratorios" target="_blank" title="Volume 3">Classificação de Áudio aplicada à Saúde</a></span> mostra uma aplicação do processamento de fala para detecção de problemas respiratórios. Já no domínio jurídico ou do direito, o <span>capítulo <a href="https://brasileiraspln.ufscar.br/livro-pln-4ed-vol3/aplicacoes-e-dominios/cap-direito/cap-direito.html#sec-cap-direito" target="_blank" title="Volume 3">PLN no Direito</a></span> traz os principais conceitos e desafios para o PLN, sendo que o tratamento das entidades nomeados neste domínio é abordado no <span>capítulo <a href="https://brasileiraspln.ufscar.br/livro-pln-4ed-vol3/aplicacoes-e-dominios/cap-direito-ren/cap-direito-ren.html#sec-cap-direito-ren" target="_blank" title="Volume 3">Reconhecimento de Entidades Nomeadas no Domínio Legal</a></span>, e a geração automática de ementas jurídicas é apresentada no <span>capítulo <a href="https://brasileiraspln.ufscar.br/livro-pln-4ed-vol3/aplicacoes-e-dominios/cap-direito-ementas/cap-direito-ementas.html#sec-cap-direito-ementas" target="_blank" title="Volume 3">Geração Automática de Ementas Jurídicas</a></span>.</p>
+<p>O <span>capítulo <a href="https://brasileiraspln.ufscar.br/livro-pln-4ed-vol3/aplicacoes-e-dominios/cap-humanidades-digitais/cap-humanidades-digitais.html#sec-cap-humanidades-digitais" target="_blank" title="Volume 3">PLN e Humanidades Digitais</a></span> discorre sobre a potencialidade do uso de PLN na ampla área de humanidades digitais, caracterizada por trabalhos derivados das ciências humanas que abordam a linguagem. O <span>capítulo <a href="https://brasileiraspln.ufscar.br/livro-pln-4ed-vol3/aplicacoes-e-dominios/cap-redes-sociais/cap-redes-sociais.html#sec-cap-redes-sociais" target="_blank" title="Volume 3">PLN em Redes Sociais</a></span> introduz o gênero especial da linguagem usada nas redes sociais, enquanto que o <span>capítulo <a href="https://brasileiraspln.ufscar.br/livro-pln-4ed-vol3/aplicacoes-e-dominios/cap-framenetbr/cap-framenetbr.html#sec-cap-framenetbr" target="_blank" title="Volume 3">PLN e Responsabilidade Social</a></span> ilustra uma aplicação do formalismo Framenet no enfrentamento à violência de gênero e na promoção da acessibilidade cultural. Finalmente, o <span>capítulo <a href="https://brasileiraspln.ufscar.br/livro-pln-4ed-vol3/aplicacoes-e-dominios/cap-redes-complexas/cap-redes-complexas.html#sec-cap-redes-complexas" target="_blank" title="Volume 3">Redes complexas no processamento de língua natural do português</a></span> explora o potencial do formalismo de redes complexas para modelar textos para aplicações de PLN, ilustrando com o mapeamento das pesquisas em PLN para português.</p>
+<p>A leitura dos capítulos que integram esse volume deve expandir o horizonte dos leitores para as variadas áreas de aplicação do PLN, e mostrar-lhes a potencialidade do emprego de PLN quando ajustado a um domínio de conhecimento, um gênero específico ou uma aplicação em particular.</p>
+<section id="como-citar" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="como-citar">Como citar</h2>
+<p>Caseli, H.M.; Nunes, M.G.V. (org.) <strong>Processamento de Linguagem Natural: Conceitos, Técnicas e Aplicações em Português</strong>. 4 ed.&nbsp;BPLN, 2026. v. 3. ISBN 978-65-02-00167-7. Disponível em: <a href="https://brasileiraspln.ufscar.br/livro-pln-4ed-vol3" class="uri">https://brasileiraspln.ufscar.br/livro-pln-4ed-vol3</a>.</p>
+<div id="nte-como-citar" class="unnumbered callout callout-style-simple callout-note no-icon callout-titled" title="Bibref">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota&nbsp;1: Bibref
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="sourceCode" id="cb1"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>@Book{BPLN_livro_4ed_vol3:2026,</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>   title     = {Processamento de Linguagem Natural: Conceitos,</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>                Técnicas e Aplicações em Português},</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>   editor    = {Caseli, H. M. and Nunes, M. G. V.},</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>   year      = {2026},</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>   publisher = {BPLN},   </span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>   edition   = {4},</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>   volume    = {3},</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>   isbn      = {978-65-02-00167-7},</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>   url       = {https://brasileiraspln.ufscar.br/livro-pln-4ed-vol3}</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+</div>
+<!--@nte-como-citar-->
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -514,8 +590,8 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./volume2.html" class="pagination-link" aria-label="Volume 2">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Volume 2</span>
+      <a href="./volume2.html" class="pagination-link" aria-label="Volume 2: Modelos de Linguagem">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Volume 2: Modelos de Linguagem</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
