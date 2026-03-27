@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Processamento de Linguagem Natural</title>
+<title>Volume 2: Modelos de Linguagem – Processamento de Linguagem Natural</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,6 +20,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -30,7 +65,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./sobre.html" rel="next">
+<link href="./volume3.html" rel="next">
+<link href="./volume1.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -90,7 +126,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Prefácio à 4a. edição</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./volume1.html"><strong>Volumes</strong></a></li><li class="breadcrumb-item"><a href="./volume2.html">Volume 2: Modelos de Linguagem</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -140,7 +176,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Prefácio à 4a. edição</span></a>
   </div>
 </li>
@@ -173,7 +209,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./volume2.html" class="sidebar-item-text sidebar-link">
+  <a href="./volume2.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Volume 2: Modelos de Linguagem</span></a>
   </div>
 </li>
@@ -201,17 +237,17 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Conteúdo</h2>
    
   <ul>
-  <li><a href="#prefácio-à-4a.-edição" id="toc-prefácio-à-4a.-edição" class="nav-link active" data-scroll-target="#prefácio-à-4a.-edição">Prefácio à 4a. edição</a></li>
+  <li><a href="#sobre-o-volume-2" id="toc-sobre-o-volume-2" class="nav-link active" data-scroll-target="#sobre-o-volume-2">Sobre o Volume 2</a></li>
+  <li><a href="#como-citar" id="toc-como-citar" class="nav-link" data-scroll-target="#como-citar">Como citar</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./volume1.html"><strong>Volumes</strong></a></li><li class="breadcrumb-item"><a href="./volume2.html">Volume 2: Modelos de Linguagem</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Processamento de Linguagem Natural</h1>
-<p class="subtitle lead">Conceitos, Técnicas e Aplicações em Português (4ª Edição)</p>
+<h1 class="title">Volume 2: Modelos de Linguagem</h1>
 </div>
 
 
@@ -219,12 +255,6 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     
-    <div>
-    <div class="quarto-title-meta-heading">Publicado em:</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">16/04/2026</p>
-    </div>
-  </div>
   
     
   </div>
@@ -234,35 +264,53 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-
-<section id="prefácio-à-4a.-edição" class="level1 unnumbered">
-<h1 class="unnumbered">Prefácio à 4a. edição</h1><p><img src="shared/capa/capa_4a-edicao.png" title="Processamento de Linguagem Natural" class="quarto-cover-image nolightbox img-fluid"></p>
-<p>O Processamento de Linguagem Natural (PLN) surgiu praticamente ao mesmo tempo que os computadores, por volta da década de 1940, já que a tradução automática entre línguas foi um dos primeiros problemas submetidos aos primeiros computadores<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>. No Brasil, as pesquisas em PLN começaram timidamente ainda na década de 1970, entre acadêmicos interessados em Inteligência Artificial (IA). Em 1984, foi realizada a primeira edição do Simpósio Brasileiro de Inteligência Artificial<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> (SBIA), em Porto Alegre, RS, e boa parte dos trabalhos apresentados nesse evento eram da área de PLN. Naquela época, os sistemas propostos para português eram muito simples, sendo apenas estudos de caso bem elementares, como os que visavam encontrar respostas para perguntas do tipo Qual?, O quê?, Onde? e Quando?. Demorou mais uma década até que houvesse uma massa crítica de cientistas brasileiros dedicados ao processamento computacional do português.</p>
-<p>No início da década de 1990, destacavam-se pesquisadores de PLN em diversos centros acadêmicos, como cientistas da computação e linguistas da UFRGS, PUCRS e da Unisinos, no RS; linguistas da PUC-Rio, no RJ; cientistas da computação na Unicamp, em SP, e na UFPE, em PE. Também nessa época, em 1993, nascia o NILC (Núcleo Interinstitucional de Linguística Computacional), no ICMC-USP/São Carlos<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>, um grupo pioneiro em PLN, que teve como desafio inicial produzir o primeiro revisor ortográfico e gramatical comercial para o português do Brasil. Para levar a cabo essa iniciativa, foi necessário compor uma equipe de informatas e linguistas que se tornaram agentes multiplicadores do PLN no Brasil.</p>
-<p>Em 1993 foi realizado o primeiro evento exclusivo de PLN dedicado ao português ibérico e brasileiro, em Lisboa. Tal evento se tornou o <em>International Conference on the Computational Processing of Portuguese</em> (PROPOR)<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>, realizado alternativamente no Brasil e em Portugal, com 17 edições realizadas até essa data (2026). No âmbito nacional, em 2003 foi criado o Simpósio Brasileiro de Tecnologia da Informação e da Linguagem Humana (STIL)<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a>, que abriga diferentes eventos satélites tratando de temas específicos para o processamento da língua, em particular o Português, com 15 edições realizadas até essa data (início de 2026). Em 2007, foi criada a Comissão Especial de PLN (CEPLN)<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a> da Sociedade Brasileira de Computação. A comunidade cresceu, inicialmente graças à formação acadêmica de profissionais e pesquisadores, posteriormente também em consequência da maior demanda de empresas tecnológicas e de outras naturezas, atraindo profissionais com diferentes formações. Em 2020, foi criado o grupo Brasileiras em PLN (BPLN)<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a>, responsável pela idealização e edição deste livro.</p>
-<p>Já há algum tempo as aplicações de PLN saíram dos laboratórios acadêmicos e entraram definitivamente no nosso cotidiano. O desenvolvimento de diversas áreas da computação de forma integrada (hardware, software, tratamento de grandes volumes de dados, aprendizado de máquina e aprendizado profundo) impulsionou o desenvolvimento do processamento da língua para uma nova esfera. Em novembro de 2022, o mundo conheceu o ChatGPT, um <em>chatbot</em> capaz de responder a qualquer pergunta ou solicitação (escrevendo códigos de programas, p.&nbsp;ex.), em língua natural, incluindo o português. Além de surpreender pelo seu desempenho linguístico, ele acendeu um sinal de alerta para a comunidade de IA e PLN, bem como para vários setores da sociedade. Várias indagações surgiram: Será que a IA está prestes a atingir a meta de criar sistemas que possam vir a substituir o homem em todas as tarefas? Quais os riscos que as diferentes sociedades correm se o mercado de trabalho for dominado por sistemas inteligentes? E se apenas poucas empresas dominarem o mercado de sistemas inteligentes? E o que pode acontecer com países não desenvolvidos? A conscientização desse cenário fez crescer o interesse pelas atividades da comunidade que desenvolve sistemas de IA, incluindo a de PLN, já que o ChatGPT é uma aplicação típica dessa área.</p>
-<p>Durante todas essas décadas, a comunidade brasileira de PLN dedicou-se a construir recursos linguístico-computacionais e também aplicações variadas para o português. No início, eram interfaces simples que entendiam perguntas feitas em linguagem natural. Seguiram-se ferramentas de auxílio à escrita, tradutores, sumarizadores, classificadores de documentos, reconhecedores e sintetizadores de fala, entre outros. Atualmente, muitas aplicações envolvem os conteúdos das redes sociais, sendo que a língua tem sido processada também com o objetivo de conhecer a pessoa que faz uso dela, seja para lhe oferecer produtos e serviços, seja para analisar tendências e personalidades. Entram em cena os reconhecedores de opiniões e sentimentos, e de notícias falsas. Essa nova tendência de descobrir o que está implícito ou pode ser inferido da linguagem trouxe problemas muito desafiadores para a área. Vários domínios de conhecimento e atuação estão fortemente presentes nessa revolução tecnológica: educação, saúde, direito, bancos e financeiras, comunicação, comércio, segurança, governança, entre outros. Tanto por serem afetados por ela como por ajudarem a construir novas soluções.</p>
-<p>Se antes os especialistas em PLN tinham a tarefa de explicitar e codificar conhecimento linguístico, hoje seu maior desafio é preparar dados/exemplos linguísticos para servirem de entrada aos algoritmos no treinamento de modelos computacionais capazes de transformar dados em conhecimento ou ações. E isso não é pouco. Para enriquecer os dados brutos de modo que o conhecimento adquirido seja o mais completo e correto possível, ou que a ação gerada seja a mais adequada, é preciso saber escolhê-los, prepará-los e eventualmente anotá-los com informações de várias naturezas: morfológicas, sintáticas, semânticas, extralinguísticas etc. É a essa tarefa que muitos especialistas em PLN de todo o mundo têm se dedicado ultimamente. Outro papel importante está nas avaliações de qualidade dos recursos e produtos construídos, o entendimento do problema, a identificação das limitações e a proposta de melhorias. É crucial que as bases do desenvolvimento dessas tecnologias sejam fortes, bem informadas, consistentes e éticas. A linguagem nos define, e ela faz agora parte dos nossos artefatos, a complexidade deste cenário ainda não é bem compreendida. Com este livro, agora na quarta edição, composto por três volumes, com dez novos capítulos, os 117 autores e autoras (39 a mais do que na terceira edição) pretendem contribuir para que o desenvolvimento da tecnologia que envolve a linguagem humana seja bem fundamentado, consciente e ético.</p>
-<p>As Seções <a href="sobre.html">Sobre este livro</a> e <a href="como_ler.html">Como ler este livro</a> devem esclarecer ao leitor sobre a natureza dos capítulos e onde localizá-los nesta obra.</p>
-<!--
-::: {.content-visible when-format="pdf"}
-As seções **Sobre este livro** e **Como ler este livro** devem esclarecer ao leitor sobre a natureza dos capítulos e onde localizá-los nesta obra. 
-:::
--->
-
-
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../livro-pln-4ed-vol2/index.html"><img src="shared/capa/capa_4a-edicao_vol2.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%"></a></p>
+</figure>
+</div>
+<section id="sobre-o-volume-2" class="level2">
+<h2 class="anchored" data-anchor-id="sobre-o-volume-2">Sobre o Volume 2</h2>
+<p>Dada a relevância atual do emprego de técnicas de aprendizado de máquina com redes neurais profundas, Transformers e Grandes Modelos de Linguagem (LLM) na área de Inteligência Artificial e, em particular, em PLN, reservamos este volume aos capítulos que tratam desses temas.</p>
+<p>No <span>capítulo <a href="https://brasileiraspln.ufscar.br/livro-pln-4ed-vol2/modelos/cap-modelos-linguagem/cap-modelos-linguagem.html#sec-cap-modelos-linguagem" target="_blank" title="Volume 2">Modelos de linguagem</a></span> são discutidas as redes neurais profundas e os Transformers, as técnicas de <em>fine-tuning</em> e <em>prompt engineering</em>. Essa leitura é essencial para o leitor ficar atualizado sobre o que tem sido usado para a criação das principais aplicações de PLN, assim como de toda inteligência artificial.</p>
+<p>Os Capítulos <span> <a href="https://brasileiraspln.ufscar.br/livro-pln-4ed-vol2/modelos/cap-modelos-dados/cap-modelos-dados.html#sec-cap-modelos-dados" target="_blank" title="Volume 2">O papel dos dados no pré-treinamento de Grandes Modelos de Linguagem</a></span> e <span> <a href="https://brasileiraspln.ufscar.br/livro-pln-4ed-vol2/modelos/cap-modelos-pratica/cap-modelos-pratica.html#sec-cap-modelos-pratica" target="_blank" title="Volume 2">Treinamento de Grandes Modelos de Linguagem na prática</a></span> discorrem sobre o papel dos dados no pré-treinamento de modelos e sobre as principais técnicas de treinamento de grandes modelos de linguagem, respectivamente.</p>
+<p>O importante tema de avaliação dos LLMs é tratado no <span>capítulo <a href="https://brasileiraspln.ufscar.br/livro-pln-4ed-vol2/modelos/cap-modelos-avaliacao/cap-modelos-avaliacao.html#sec-cap-modelos-avaliacao" target="_blank" title="Volume 2">Avaliação de Grandes Modelos de Linguagem</a></span>, que introduz seus fundamentos, métricas, <em>benchmarks</em> e considerações de ordem ética.</p>
+<p>O desafio para mitigar o efeito de alucinação dos LLMs é discutido no <span>capítulo <a href="https://brasileiraspln.ufscar.br/livro-pln-4ed-vol2/modelos/cap-rag/cap-rag.html#sec-cap-rag" target="_blank" title="Volume 2">Geração Aumentada por Recuperação (RAG)</a></span>, onde é apresentada a técnica de geração aumentada de recuperação (<em>Retrieval-Augmented Generation</em>, RAG), que suporta acesso a fontes de dados externas para gerar respostas factuais e relevantes, reduzindo alucinações dos modelos.</p>
+<p>O <span>capítulo <a href="https://brasileiraspln.ufscar.br/livro-pln-4ed-vol2/modelos/cap-modelos-etica/cap-modelos-etica.html#sec-cap-modelos-etica" target="_blank" title="Volume 2">Responsabilidade no desenvolvimento e uso de tecnologias de linguagem baseadas em IA</a></span> apresenta um amplo panorama das discussões envolvendo aspectos importantes do desenvolvimento responsável de tecnologias de linguagem baseadas em inteligência artificial.</p>
+<p>Finalmente, no <span>capítulo <a href="https://brasileiraspln.ufscar.br/livro-pln-4ed-vol2/modelos/cap-agentes-conversacionais/cap-agentes-conversacionais.html#sec-cap-agentes-conversacionais" target="_blank" title="Volume 2">ChatGPT, MariTalk e outros agentes de conversação</a></span>, o leitor terá oportunidade de conhecer o caminho percorrido pelo PLN até chegar aos agentes atuais, como ChatGPT e MariTalk, que são analisados em profundidade.</p>
+<p></p>
 </section>
-<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
-<hr>
-<ol>
-<li id="fn1"><p>Os primeiros computadores também foram massivamente usados para realizar cálculos numéricos complexos, mas a tradução automática foi a primeira aplicação simbólica da computação.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p>O SBIA é hoje o BRACIS. Para saber mais, consulte <a href="http://comissoes.sbc.org.br/ce-ia/pg/historico/?sec=SBIA-1984" class="uri">http://comissoes.sbc.org.br/ce-ia/pg/historico/?sec=SBIA-1984</a>.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn3"><p><a href="http://www.nilc.icmc.usp.br/" class="uri">http://www.nilc.icmc.usp.br/</a><a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn4"><p><a href="https://sites.google.com/view/ce-pln/eventos/propor" class="uri">https://sites.google.com/view/ce-pln/eventos/propor</a><a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn5"><p><a href="https://sites.google.com/view/ce-pln/eventos/stil" class="uri">https://sites.google.com/view/ce-pln/eventos/stil</a><a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn6"><p><a href="http://comissoes.sbc.org.br/ce-pln/" class="uri">http://comissoes.sbc.org.br/ce-pln/</a><a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn7"><p><a href="https://brasileiraspln.com/" class="uri">https://brasileiraspln.com/</a><a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
+<section id="como-citar" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="como-citar">Como citar</h2>
+<p>Caseli, H.M.; Nunes, M.G.V. (org.) <strong>Processamento de Linguagem Natural: Conceitos, Técnicas e Aplicações em Português</strong>. 4 ed.&nbsp;BPLN, 2026. v. 2. ISBN 978-65-02-00158-5. Disponível em: <a href="https://brasileiraspln.ufscar.br/livro-pln-4ed-vol2" class="uri">https://brasileiraspln.ufscar.br/livro-pln-4ed-vol2</a>.</p>
+<div id="nte-como-citar" class="unnumbered callout callout-style-simple callout-note no-icon callout-titled" title="Bibref">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota&nbsp;1: Bibref
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="sourceCode" id="cb1"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>@Book{BPLN_livro_4ed_vol2:2026,</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>   title     = {Processamento de Linguagem Natural: Conceitos,</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>                Técnicas e Aplicações em Português},</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>   editor    = {Caseli, H. M. and Nunes, M. G. V.},</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>   year      = {2026},</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>   publisher = {BPLN},   </span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>   edition   = {4},</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>   volume    = {2},</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>   isbn      = {978-65-02-00158-5},</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>   url       = {https://brasileiraspln.ufscar.br/livro-pln-4ed-vol2}</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+</div>
+
+
 </section>
 
 </main> <!-- /main -->
@@ -554,10 +602,13 @@ As seções **Sobre este livro** e **Como ler este livro** devem esclarecer ao l
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./volume1.html" class="pagination-link" aria-label="Volume 1: Conceitos e Técnicas">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Volume 1: Conceitos e Técnicas</span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./sobre.html" class="pagination-link" aria-label="Sobre este livro">
-        <span class="nav-page-text">Sobre este livro</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./volume3.html" class="pagination-link" aria-label="Volume 3: Aplicações e Domínios">
+        <span class="nav-page-text">Volume 3: Aplicações e Domínios</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
